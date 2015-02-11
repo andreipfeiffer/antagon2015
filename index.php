@@ -16,6 +16,9 @@
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+    <link href="js/photoswipe/photoswipe.css" rel="stylesheet">
+    <link href="js/photoswipe/default-skin/default-skin.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -44,8 +47,8 @@
                     <li><a class="page-scroll" href="#program">Program</a></li>
                     <li><a class="page-scroll" href="#bilete">Bilete</a></li>
                     <li><a class="page-scroll" href="#despre">Despre</a></li>
-                    <li><a class="page-scroll" href="#sponsori">Sponsori</a></li>
-                    <li><a class="page-scroll" href="#parteneri">Parteneri</a></li>
+                    <li><a class="page-scroll" href="#galerie">Galerie</a></li>
+                    <li><a class="page-scroll" href="#sponsori">Sustinatori</a></li>
                     <li><a class="page-scroll" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -238,6 +241,18 @@
         </div>
     </section>
 
+    <!-- Galerie -->
+    <section id="galerie" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Galerie foto</h2>
+
+                <p><a href="#galerie2014" id="galerie2014">Editia 2014</a></p>
+                <p><a href="#galerie2015">Editia 2015</a></p>
+            </div>
+        </div>
+    </section>
+
     <!-- Sponsori -->
     <section id="sponsori" class="content-section text-center">
         <div class="download-section">
@@ -331,6 +346,8 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
+    <script src="js/photoswipe/photoswipe.min.js"></script>
+    <script src="js/photoswipe/photoswipe-ui-default.min.js"></script>
     <script src="js/grayscale.js"></script>
 
 </body>
