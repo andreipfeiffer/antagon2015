@@ -42,7 +42,8 @@ $(function() {
 
     'use strict';
 
-    var pswpElement = null;
+    var pswpElement = null,
+        galleryData = {};
 
     ANTAGON.init();
 
@@ -50,32 +51,28 @@ $(function() {
         ANTAGON.toggleMenu();
     });
 
-    $('#galerie2014').on('click', function(e) {
+    $('.galerie').on('click', function(e) {
         e.preventDefault();
+        var year = $(this).attr('data-year');
         if ( !pswpElement ) {
-            $.ajax('views/galerie.php').then(function(data) {
-                pswpElement = $('body').append(data).find('.pswp')[0];
-                initGalerie();
+            $.when(
+                $.get('views/galerie.php'),
+                $.get('galerie-data.php')
+            ).done(function(template, imageData) {
+                galleryData = JSON.parse( imageData[0] );
+                pswpElement = $('body').append(template[0]).find('.pswp')[0];
+                initGalerie( galleryData[year] );
             });
         } else {
-            initGalerie();
+            initGalerie( galleryData[year] );
         }
     })
 
-    function initGalerie() {
-        // build items array
-        var items = [
-            {
-                src: 'img/galerie/2014/img1.jpg',
-                w: 2000,
-                h: 740
-            },
-            {
-                src: 'img/galerie/2014/img2.jpg',
-                w: 960,
-                h: 639
-            }
-        ];
+    function initGalerie(items) {
+
+        if ( typeof items === 'undefined' ) {
+            return;
+        }
 
         var options = {
             // optionName: 'option value'

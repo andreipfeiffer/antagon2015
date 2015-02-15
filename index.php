@@ -247,8 +247,8 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Galerie foto</h2>
 
-                <p><a href="#galerie2014" id="galerie2014">Editia 2014</a></p>
-                <p><a href="#galerie2015">Editia 2015</a></p>
+                <p><a href="#galerie2014" class="galerie" data-year="2014">Editia 2014</a></p>
+                <p><a href="#galerie2015" class="galerie" data-year="2015">Editia 2015</a></p>
             </div>
         </div>
     </section>
