@@ -2,8 +2,12 @@ var ANTAGON = (function() {
 
     'use strict';
 
+    var $nav = $('.navbar-fixed-top'),
+        cssClass = 'top-nav-collapse';
+
     function init() {
         scrollToSection();
+        toggleMenu();
 
         // Closes the Responsive Menu on Menu Item Click
         $('.navbar-collapse ul li a').click(function() {
@@ -24,10 +28,10 @@ var ANTAGON = (function() {
 
     // jQuery to collapse the navbar on scroll
     function toggleMenu() {
-        if ( $(".navbar").offset().top > 50 ) {
-            $(".navbar-fixed-top").addClass("top-nav-collapse");
+        if ( $('.navbar').offset().top > 50 ) {
+            !$nav.hasClass(cssClass) && $nav.addClass(cssClass);
         } else {
-            $(".navbar-fixed-top").removeClass("top-nav-collapse");
+            $nav.hasClass(cssClass) && $nav.removeClass(cssClass);
         }
     }
 
