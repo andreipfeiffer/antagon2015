@@ -379,3 +379,32 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+
+/* Program */
+@media(max-width:767px) {
+    #program td {
+        display: block;
+        border-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #program td:last-child {
+        border-bottom: 1px #aaa solid;
+        padding-bottom: 0.5em;
+    }
+    #program .ziua {
+        background-color: #444;
+        /* to hide the border from the previous element */
+        margin-top: -1px;
+        line-height: 2em;
+    }
+    #program .piesa {
+        font-weight: bold;
+        font-size: 16px;
+        padding-top: 0.5em;
+    }
+    #program .trupa {
+        color: #888;
+    }
+}

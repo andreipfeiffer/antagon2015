@@ -82,126 +82,123 @@
                 <table class="table text-left">
                     <tbody>
                         <tr>
-                            <td>Duminica</td>
-                            <td>Aualeu Teatru</td>
-                            <td>Ferma animalelor</td>
+                            <td class="ziua">Duminica</td>
+                            <td class="piesa">Ferma animalelor</td>
+                            <td class="trupa">Aualeu Teatru</td>
                             <td>Pietonala Marasesti</td>
                             <td>22:00</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">Luni</td>
-                            <td>Compania Teatrala Bis</td>
-                            <td>Cehov - trei drame ridicole</td>
+                            <td class="ziua" rowspan="2">Luni</td>
+                            <td class="piesa">Cehov - trei drame ridicole</td>
+                            <td class="trupa">Compania Teatrala Bis</td>
                             <td>Hotel Costel</td>
                             <td>19:00</td>
                         </tr>
                         <tr>
-                            <td>Compania Teatrala Bis</td>
-                            <td>Amalia respira adanc</td>
+                            <td class="piesa">Amalia respira adanc</td>
+                            <td class="trupa">Compania Teatrala Bis</td>
                             <td>Hotel Costel</td>
                             <td>21:00</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">Marti</td>
-                            <td>Ionut Caras</td>
-                            <td>Urletul</td>
+                            <td class="ziua" rowspan="2">Marti</td>
+                            <td class="piesa">Urletul</td>
+                            <td class="trupa">Ionut Caras</td>
                             <td>Electric Theatre</td>
                             <td>19:00</td>
                         </tr>
                         <tr>
-                            <td>Aualeu Teatru</td>
-                            <td>O noapte furtunoasa</td>
+                            <td class="piesa">O noapte furtunoasa</td>
+                            <td class="trupa">Aualeu Teatru</td>
                             <td>Hotel Costel</td>
                             <td>21:00</td>
                         </tr>
                         <tr>
-                            <td rowspan="4">Miercuri</td>
-                            <td>Reactor de creatie si experiment</td>
-                            <td>Pasarea care nu e</td>
+                            <td class="ziua" rowspan="4">Miercuri</td>
+                            <td class="piesa">Pasarea care nu e</td>
+                            <td class="trupa">Reactor de creatie si experiment</td>
                             <td>Scart, loc lejer</td>
                             <td>19:00</td>
                         </tr>
                         <tr>
-                            <td>Reactor de creatie si experiment</td>
-                            <td>Astepdand-o pe Alice</td>
+                            <td class="piesa">Astepdand-o pe Alice</td>
+                            <td class="trupa">Reactor de creatie si experiment</td>
                             <td>Hotel Costel</td>
                             <td>21:00</td>
                         </tr>
                         <tr>
-                            <td>Stage</td>
-                            <td>1000 de motive sa te omor</td>
+                            <td class="piesa">1000 de motive sa te omor</td>
+                            <td class="trupa">Stage</td>
                             <td>Scart, loc lejer</td>
                             <td>21:00</td>
                         </tr>
                         <tr>
-                            <td>Teatrul de Arta</td>
-                            <td>Sase din 49</td>
+                            <td class="piesa">Sase din 49</td>
+                            <td class="trupa">Teatrul de Arta</td>
                             <td>Electric theatre</td>
                             <td>21:00</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">Joi</td>
-                            <td>O2G</td>
-                            <td>Capete infierbantate</td>
+                            <td class="ziua" rowspan="2">Joi</td>
+                            <td class="piesa">Capete infierbantate</td>
+                            <td class="trupa">O2G</td>
                             <td>Galeria Triade</td>
                             <td>19:00</td>
                         </tr>
                         <tr>
-                            <td>Tunde Cari Baczo</td>
-                            <td>Dar cu pianistul cine danseaza</td>
+                            <td class="piesa">Dar cu pianistul cine danseaza</td>
+                            <td class="trupa">Tunde Cari Baczo</td>
                             <td>Galeria Triade</td>
                             <td>21:00</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">Vineri</td>
-                            <td>Doctor's studio</td>
-                            <td>Colibri</td>
+                            <td class="ziua" rowspan="2">Vineri</td>
+                            <td class="piesa">Colibri</td>
+                            <td class="trupa">Doctor's studio</td>
                             <td>Scart, loc lejer</td>
                             <td>19:00</td>
                         </tr>
                         <tr>
-                            <td>Electric Theatre</td>
-                            <td>Romania Free Country</td>
+                            <td class="piesa">Romania Free Country</td>
+                            <td class="trupa">Electric Theatre</td>
                             <td>Electric Theatre</td>
                             <td>21:00</td>
                         </tr>
                         <tr>
-                            <td rowspan="4">Sambata</td>
-                            <td>Teatru Fix</td>
-                            <td>Pietre in buzunar</td>
+                            <td class="ziua" rowspan="4">Sambata</td>
+                            <td class="piesa">Pietre in buzunar</td>
+                            <td class="trupa">Teatru Fix</td>
                             <td>Scart, loc lejer</td>
                             <td>19:00</td>
                         </tr>
                         <tr>
-                            <td>Doctor's studio</td>
-                            <td>Monoloagele vecinului</td>
+                            <td class="piesa">Monoloagele vecinului</td>
+                            <td class="trupa">Doctor's studio</td>
                             <td>[e-spres-oh]</td>
                             <td>19:00</td>
                         </tr>
                         <tr>
-                            <td>Unteatru</td>
-                            <td>Cel mai frumos roman din lume</td>
+                            <td class="piesa">Cel mai frumos roman din lume</td>
+                            <td class="trupa">Unteatru</td>
                             <td>Electric Theatre</td>
                             <td>19:00</td>
                         </tr>
                         <tr>
-                            <td>Doctor's studio</td>
-                            <td>In debt we art</td>
-                            <td>Electric Theatre</td>
-                            <td>21:00</td>
+                            <td class="piesa">In debt we art</td>
+                            <td class="trupa">Doctor's studio</td>
+                            <td class="locatie">Electric Theatre <span class="ora">21:00</span></td>
                         </tr>
                         <tr>
-                            <td rowspan="2">Duminica</td>
-                            <td>Unteatru</td>
-                            <td>Blackbird</td>
-                            <td>Electric Theatre</td>
-                            <td>19:00</td>
+                            <td class="ziua" rowspan="2">Duminica</td>
+                            <td class="piesa">Blackbird</td>
+                            <td class="trupa">Unteatru</td>
+                            <td class="locatie">Electric Theatre <span class="ora">19:00</span></td>
                         </tr>
                         <tr>
-                            <td>Aualeu Teatru</td>
-                            <td>Circus Mundi</td>
-                            <td>Parcul Botanic</td>
-                            <td>22:00</td>
+                            <td class="piesa">Circus Mundi</td>
+                            <td class="trupa">Aualeu Teatru</td>
+                            <td class="locatie">Parcul Botanic <span class="ora">22:00</span></td>
                         </tr>
                     </tbody>
                 </table>
