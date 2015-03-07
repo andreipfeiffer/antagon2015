@@ -382,6 +382,13 @@ body {
 
 
 /* Program */
+#program .ora {
+    float: right;
+}
+#program .data {
+    display: block;
+}
+
 @media(max-width:767px) {
     #program td {
         display: block;
@@ -406,5 +413,11 @@ body {
     }
     #program .trupa {
         color: #888;
+    }
+    #program .ora {
+        float: none;
+    }
+    #program .data {
+        display: inline;
     }
 }

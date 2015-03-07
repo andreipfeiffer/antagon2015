@@ -64,7 +64,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Antagon</h1>
-                        <h2 class="intro-text">23-29 septembrie</h2>
+                        <h2 class="intro-text">18-25 octombrie</h2>
                         <a href="#program" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -82,107 +82,91 @@
                 <table class="table text-left">
                     <tbody>
                         <tr>
-                            <td class="ziua">Duminica</td>
+                            <td class="ziua">Duminica <span class="data">18 oct</span></td>
                             <td class="piesa">Ferma animalelor</td>
                             <td class="trupa">Aualeu Teatru</td>
-                            <td>Pietonala Marasesti</td>
-                            <td>22:00</td>
+                            <td class="locatie">Pietonala Marasesti <span class="ora">22:00</span></td>
                         </tr>
                         <tr>
-                            <td class="ziua" rowspan="2">Luni</td>
+                            <td class="ziua" rowspan="2">Luni <span class="data">19 oct</span></td>
                             <td class="piesa">Cehov - trei drame ridicole</td>
                             <td class="trupa">Compania Teatrala Bis</td>
-                            <td>Hotel Costel</td>
-                            <td>19:00</td>
+                            <td class="locatie">Hotel Costel <span class="ora">19:00</span></td>
                         </tr>
                         <tr>
                             <td class="piesa">Amalia respira adanc</td>
                             <td class="trupa">Compania Teatrala Bis</td>
-                            <td>Hotel Costel</td>
-                            <td>21:00</td>
+                            <td class="locatie">Hotel Costel <span class="ora">21:00</span></td>
                         </tr>
                         <tr>
-                            <td class="ziua" rowspan="2">Marti</td>
+                            <td class="ziua" rowspan="2">Marti <span class="data">20 oct</span></td>
                             <td class="piesa">Urletul</td>
                             <td class="trupa">Ionut Caras</td>
-                            <td>Electric Theatre</td>
-                            <td>19:00</td>
+                            <td class="locatie">Electric Theatre <span class="ora">19:00</span></td>
                         </tr>
                         <tr>
                             <td class="piesa">O noapte furtunoasa</td>
                             <td class="trupa">Aualeu Teatru</td>
-                            <td>Hotel Costel</td>
-                            <td>21:00</td>
+                            <td class="locatie">Hotel Costel <span class="ora">21:00</span></td>
                         </tr>
                         <tr>
-                            <td class="ziua" rowspan="4">Miercuri</td>
+                            <td class="ziua" rowspan="4">Miercuri <span class="data">21 oct</span></td>
                             <td class="piesa">Pasarea care nu e</td>
                             <td class="trupa">Reactor de creatie si experiment</td>
-                            <td>Scart, loc lejer</td>
-                            <td>19:00</td>
+                            <td class="locatie">Scart, loc lejer <span class="ora">19:00</span></td>
                         </tr>
                         <tr>
                             <td class="piesa">Astepdand-o pe Alice</td>
                             <td class="trupa">Reactor de creatie si experiment</td>
-                            <td>Hotel Costel</td>
-                            <td>21:00</td>
+                            <td class="locatie">Hotel Costel <span class="ora">21:00</span></td>
                         </tr>
                         <tr>
                             <td class="piesa">1000 de motive sa te omor</td>
                             <td class="trupa">Stage</td>
-                            <td>Scart, loc lejer</td>
-                            <td>21:00</td>
+                            <td class="locatie">Scart, loc lejer <span class="ora">21:00</span></td>
                         </tr>
                         <tr>
                             <td class="piesa">Sase din 49</td>
                             <td class="trupa">Teatrul de Arta</td>
-                            <td>Electric theatre</td>
-                            <td>21:00</td>
+                            <td class="locatie">Electric theatre <span class="ora">21:00</span></td>
                         </tr>
                         <tr>
-                            <td class="ziua" rowspan="2">Joi</td>
+                            <td class="ziua" rowspan="2">Joi <span class="data">22 oct</span></td>
                             <td class="piesa">Capete infierbantate</td>
                             <td class="trupa">O2G</td>
-                            <td>Galeria Triade</td>
-                            <td>19:00</td>
+                            <td class="locatie">Galeria Triade <span class="ora">19:00</span></td>
                         </tr>
                         <tr>
                             <td class="piesa">Dar cu pianistul cine danseaza</td>
                             <td class="trupa">Tunde Cari Baczo</td>
-                            <td>Galeria Triade</td>
-                            <td>21:00</td>
+                            <td class="locatie">Galeria Triade <span class="ora">21:00</span></td>
                         </tr>
                         <tr>
-                            <td class="ziua" rowspan="2">Vineri</td>
+                            <td class="ziua" rowspan="2">Vineri <span class="data">23 oct</span></td>
                             <td class="piesa">Colibri</td>
                             <td class="trupa">Doctor's studio</td>
-                            <td>Scart, loc lejer</td>
-                            <td>19:00</td>
+                            <td class="locatie">Scart, loc lejer <span class="ora">19:00</span></td>
                         </tr>
                         <tr>
                             <td class="piesa">Romania Free Country</td>
                             <td class="trupa">Electric Theatre</td>
-                            <td>Electric Theatre</td>
-                            <td>21:00</td>
+                            <td class="locatie">Electric Theatre <span class="ora">21:00</span></td>
                         </tr>
                         <tr>
-                            <td class="ziua" rowspan="4">Sambata</td>
+                            <td class="ziua" rowspan="4">Sambata <span class="data">24 oct</span></td>
                             <td class="piesa">Pietre in buzunar</td>
                             <td class="trupa">Teatru Fix</td>
-                            <td>Scart, loc lejer</td>
-                            <td>19:00</td>
+                            <td class="locatie">Scart, loc lejer <span class="ora">19:00</span></td>
                         </tr>
                         <tr>
                             <td class="piesa">Monoloagele vecinului</td>
                             <td class="trupa">Doctor's studio</td>
-                            <td>[e-spres-oh]</td>
-                            <td>19:00</td>
+                            <td class="locatie">[e-spres-oh] <span class="ora">19:00</span></td>
                         </tr>
                         <tr>
                             <td class="piesa">Cel mai frumos roman din lume</td>
                             <td class="trupa">Unteatru</td>
-                            <td>Electric Theatre</td>
-                            <td>19:00</td>
+                            <td class="locatie">Electric Theatre <span class="ora">19:00</span></td>
                         </tr>
                         <tr>
                             <td class="piesa">In debt we art</td>
@@ -190,7 +174,7 @@
                             <td class="locatie">Electric Theatre <span class="ora">21:00</span></td>
                         </tr>
                         <tr>
-                            <td class="ziua" rowspan="2">Duminica</td>
+                            <td class="ziua" rowspan="2">Duminica <span class="data">25 oct</span></td>
                             <td class="piesa">Blackbird</td>
                             <td class="trupa">Unteatru</td>
                             <td class="locatie">Electric Theatre <span class="ora">19:00</span></td>
@@ -211,15 +195,16 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Bilete</h2>
-                <p>Bilete la spectacolele Festivalului Antagon găsiţi în:</p>
+                <p>Biletele pentru spectacolele din cadrul festivalului se pot cumpara in avans de la:</p>
                 <ul class="list-unstyled">
-                    <li>Scart Loc Lejer</li>
-                    <li>Aethernativ</li>
-                    <li>Electric Theatre</li>
-                    <li>librăriile Cărtureşti Timişoara</li>
+                    <li>Scârț, Loc lejer</li>
+                    <li>Librăria Cărturești Mercy</li>
+                    <li>Ambasada</li>
+                    <li>Aethernative Cafe</li>
                 </ul>
                 <br>
-                <p>Prețul unui bilet pentru oricare spectacol din cadrul festivalului este de 20 lei.<br>Pentru zilele de luni, 2 iunie și joi, 5 iunie, achiziționarea unui bilet asigură accesul la ambele spectacole.</p>
+                <p>Biletele de zi costă 25 de lei și permit accesul la ambele spectacole programate într-o zi.</p>
+                <p>Abonamentele costă 100 de lei și permit accesul la toate spectacolele din festival. Abonamentele sunt nominale, la accesul în spațiile de joc fiind necesar și un act de identitate.</p>
             </div>
         </div>
     </section>
@@ -228,12 +213,12 @@
     <section id="despre" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Ce este si ce vrea sa fie Antagon?</h2>
-                <p>Antagon Festival este un eveniment aflat la prima ediție în 2014, prin care ne-am propus să aducem în Timișoara acele spectacole de teatru pe care ne-am fi dorit noi să le vedem aici, acasă. Specificul acestor spectacole este dat de faptul că sunt jucate de trupe de teatru aflate în afara sistemului instituționalizat, ceea ce în mod obișnuit este numit teatru independent, dar pe care noi sperăm să-l găsim, în cele opt zile de festival, mai degrabă liber.</p>
+                <h2>Despre</h2>
+                <p>Antagon Festival este un eveniment dedicat companiilor și publicului de teatru independent.</p>
 
-                <p>Spectacolele se vor întâmpla între 1 și 8 iunie, la Timișoara, mai exact la Scârț, Electric Theatre, Hostel Costel, mansarda [e-spres-oh], galeria Triade, pietonala Mărășești și parcul Botanic.</p>
+                <p>A avut prima ediție în 2014, când numărul mare de spectatori ne-a convins să organizăm și o a doua ediție. Organizatorul evenimentului este Asociația Culturală Antagon. Încă de la prima ediție ne-am propus să oferim trupelor de teatru ce dezvoltă spectacole în regim independent, o platformă de prezentare a acestora publicului din Timișoara.</p>
 
-                <p><strong>Veniți mulți, bilete puține!</strong></p>
+                <p>Selecția spectacolelor este făcută de către organizatori singurele criterii fiind calitatea spectacolului și apartenența acestuia la scena independentă. Antagon nu este un festival concurs.</p>
             </div>
         </div>
     </section>
@@ -250,27 +235,20 @@
         </div>
     </section>
 
-    <!-- Sponsori -->
+    <!-- Sustinatori -->
     <section id="sponsori" class="content-section text-center">
         <div class="download-section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Sponsori</h2>
-                        <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                        <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                        <h2>Susținători</h2>
+                        <p>Le mulțumim celor fără de care Antagon Festival nu ar fi la fel</p>
+
+                        <h3>Sponsori</h3>
+
+                        <h3>Parteneri</h3>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Parteneri -->
-    <section id="parteneri" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Parteneri</h2>
-                <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
             </div>
         </div>
     </section>
@@ -282,7 +260,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <h2>Contact</h2>
-                        <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                        <p>Ne puteți contacta pe email sau la telefon:</p>
                         <p>
                             <a href="mailto:bogdan.cotirta@antagonfestival.ro">bogdan.cotirta@antagonfestival.ro</a><br>
                             0040 749 402521
