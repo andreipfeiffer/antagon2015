@@ -212,11 +212,10 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Despre</h2>
+
                 <p>Antagon Festival este un eveniment dedicat companiilor și publicului de teatru independent.</p>
-
                 <p>A avut prima ediție în 2014, când numărul mare de spectatori ne-a convins să organizăm și o a doua ediție. Organizatorul evenimentului este Asociația Culturală Antagon. Încă de la prima ediție ne-am propus să oferim trupelor de teatru ce dezvoltă spectacole în regim independent, o platformă de prezentare a acestora publicului din Timișoara.</p>
-
-                <p>Selecția spectacolelor este făcută de către organizatori singurele criterii fiind calitatea spectacolului și apartenența acestuia la scena independentă. Antagon nu este un festival concurs.</p>
+                <p>Selecția spectacolelor este făcută de către organizatori, singurele criterii fiind calitatea spectacolului și apartenența acestuia la scena independentă. </p>
             </div>
         </div>
     </section>
