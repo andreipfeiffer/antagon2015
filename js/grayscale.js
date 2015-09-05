@@ -18,10 +18,13 @@ var ANTAGON = (function() {
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     function scrollToSection() {
         $('.page-scroll').bind('click', function(event) {
-            var $anchor = $(this);
+            var section = $(this).attr('href'),
+                scrollLength = getScrollTop( section );
+
             $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top
+                scrollTop: scrollLength
             }, 800, 'easeInOutExpo');
+
             event.preventDefault();
         });
     }
@@ -33,6 +36,16 @@ var ANTAGON = (function() {
         } else {
             $nav.hasClass(cssClass) && $nav.removeClass(cssClass);
         }
+    }
+
+    function getScrollTop(section) {
+        if (
+            section === '#program' &&
+            $(section).find('.is-active').length
+        ) {
+            return $(section).find('.is-active:first').offset().top - 100;
+        }
+        return $(section).offset().top;
     }
 
     return {
