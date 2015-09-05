@@ -388,6 +388,9 @@ body {
 #program .data {
     display: block;
 }
+#program .is-active {
+    background: #222;
+}
 
 @media(max-width:767px) {
     #program td {
