@@ -282,24 +282,24 @@
                     <h2>Echipa</h2>
                     <ul class="list-unstyled echipa">
                         <li class="col-xs-6 col-sm-4 col-lg-3">
-                            <a href="#"><img src="http://placehold.it/120/666666/bbbbbb&amp;text=BCo" class="img-circle"></a>
-                            <h3 class="echipa__nume">Bogdan Cotirta</h3>
-                            <p class="echipa__descriere">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae efficitur dui.</p>
+                            <a href="#"><img src="http://placehold.it/120/666666/bbbbbb&amp;text=OMi" class="img-circle"></a>
+                            <h3 class="echipa__nume">Ovidiu Mihăiță</h3>
+                            <p class="echipa__descriere">organizator</p>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-lg-3">
-                            <a href="#"><img src="http://placehold.it/120/666666/bbbbbb&amp;text=OMi" class="img-circle"></a>
-                            <h3 class="echipa__nume">Ovidiu Mihaita</h3>
-                            <p class="echipa__descriere">Consectetur adipiscing elit. Nulla vitae efficitur dui.</p>
+                            <a href="#"><img src="http://placehold.it/120/666666/bbbbbb&amp;text=BCo" class="img-circle"></a>
+                            <h3 class="echipa__nume">Bogdan Cotîrță</h3>
+                            <p class="echipa__descriere">organizator</p>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-lg-3">
                             <a href="#"><img src="http://placehold.it/120/666666/bbbbbb&amp;text=LPo" class="img-circle"></a>
-                            <h3 class="echipa__nume">Luci Popovici</h3>
-                            <p class="echipa__descriere">Nulla vitae efficitur dui Lorem ipsum dolor sit amet.</p>
+                            <h3 class="echipa__nume">Lucian Popovici</h3>
+                            <p class="echipa__descriere">grafică</p>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-lg-3">
                             <a href="#"><img src="http://placehold.it/120/666666/bbbbbb&amp;text=LRa" class="img-circle"></a>
-                            <h3 class="echipa__nume">Lia Radoi</h3>
-                            <p class="echipa__descriere">Nulla vitae efficitur dui Lorem ipsum dolor sit amet.</p>
+                            <h3 class="echipa__nume">Lia Rădoi</h3>
+                            <p class="echipa__descriere">grafică</p>
                         </li>
                     </ul>
                 </div>
