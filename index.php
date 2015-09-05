@@ -200,11 +200,9 @@
                     <li>Scârț, Loc lejer</li>
                     <li>Librăria Cărturești Mercy</li>
                     <li>Ambasada</li>
-                    <li>Aethernative Cafe</li>
                 </ul>
                 <br>
-                <p>Biletele de zi costă 25 de lei și permit accesul la ambele spectacole programate într-o zi.</p>
-                <p>Abonamentele costă 100 de lei și permit accesul la toate spectacolele din festival. Abonamentele sunt nominale, la accesul în spațiile de joc fiind necesar și un act de identitate.</p>
+                <p>Biletele costă 25 de lei <br>și permit accesul la ambele spectacole programate într-o zi.</p>
             </div>
         </div>
     </section>
