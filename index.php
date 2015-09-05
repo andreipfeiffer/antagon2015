@@ -277,7 +277,7 @@ switch ($date) {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Susținători</h2>
+                        <h2>Sustinatori</h2>
                         <p>Le mulțumim celor fără de care Antagon Festival nu ar fi la fel</p>
 
                         <h3>Sponsori</h3>
