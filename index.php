@@ -109,9 +109,8 @@ switch ($date) {
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Antagon</h1>
-                        <h2 class="intro-text">18-25 octombrie</h2>
+                    <div class="col-md-10 col-md-offset-1">
+                        <img src="img/header-antagon-festival.png" alt="Antagon Festival, Timisoara 18-25 octombrie 2015" id="banner-header">
                         <a href="#program" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
