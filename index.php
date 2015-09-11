@@ -119,126 +119,133 @@ switch ($date) {
     </header>
 
     <!-- Program -->
-    <section id="program" class="container content-section content-section--separator text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Program</h2>
-                <table class="table text-left">
-                    <tbody>
-                        <tr class="<?php echo ($antagonDay == 1) ? 'is-active' : '' ?>">
-                            <td class="ziua">Duminica <span class="data">18 oct</span></td>
-                            <td class="piesa">Ferma animalelor</td>
-                            <td class="trupa">Aualeu Teatru</td>
-                            <td class="locatie">??? <span class="ora">20:00</span></td>
-                        </tr>
+    <section id="program">
+        <div class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Program</h2>
+                    <table class="table text-left">
+                        <tbody>
+                            <tr class="<?php echo ($antagonDay == 1) ? 'is-active' : '' ?>">
+                                <td class="ziua">Duminica <span class="data">18 oct</span></td>
+                                <td class="piesa">Ferma animalelor</td>
+                                <td class="trupa">Aualeu Teatru</td>
+                                <td class="locatie">??? <span class="ora">20:00</span></td>
+                            </tr>
 
-                        <tr class="<?php echo ($antagonDay == 2) ? 'is-active' : '' ?>">
-                            <td class="ziua" rowspan="2">Luni <span class="data">19 oct</span></td>
-                            <td class="piesa">Foc de voie</td>
-                            <td class="trupa">Ionut Caras</td>
-                            <td class="locatie">Ambasada <span class="ora">19:00</span></td>
-                        </tr>
-                        <tr class="<?php echo ($antagonDay == 2) ? 'is-active' : '' ?>">
-                            <td class="piesa">Voi n-ati vazut nimic</td>
-                            <td class="trupa">David Schwartz</td>
-                            <td class="locatie">Ambasada <span class="ora">21:00</span></td>
-                        </tr>
+                            <tr class="<?php echo ($antagonDay == 2) ? 'is-active' : '' ?>">
+                                <td class="ziua" rowspan="2">Luni <span class="data">19 oct</span></td>
+                                <td class="piesa">Foc de voie</td>
+                                <td class="trupa">Ionut Caras</td>
+                                <td class="locatie">Ambasada <span class="ora">19:00</span></td>
+                            </tr>
+                            <tr class="<?php echo ($antagonDay == 2) ? 'is-active' : '' ?>">
+                                <td class="piesa">Voi n-ati vazut nimic</td>
+                                <td class="trupa">David Schwartz</td>
+                                <td class="locatie">Ambasada <span class="ora">21:00</span></td>
+                            </tr>
 
-                        <tr class="<?php echo ($antagonDay == 3) ? 'is-active' : '' ?>">
-                            <td class="ziua" rowspan="2">Marti <span class="data">20 oct</span></td>
-                            <td class="piesa">Uord</td>
-                            <td class="trupa">ASA triO</td>
-                            <td class="locatie">Tam Tam <span class="ora">19:00</span></td>
-                        </tr>
-                        <tr class="<?php echo ($antagonDay == 3) ? 'is-active' : '' ?>">
-                            <td class="piesa">concert punk</td>
-                            <td class="trupa">Watican Punk Ballet</td>
-                            <td class="locatie">Tam Tam <span class="ora">21:00</span></td>
-                        </tr>
+                            <tr class="<?php echo ($antagonDay == 3) ? 'is-active' : '' ?>">
+                                <td class="ziua" rowspan="2">Marti <span class="data">20 oct</span></td>
+                                <td class="piesa">Uord</td>
+                                <td class="trupa">ASA triO</td>
+                                <td class="locatie">Tam Tam <span class="ora">19:00</span></td>
+                            </tr>
+                            <tr class="<?php echo ($antagonDay == 3) ? 'is-active' : '' ?>">
+                                <td class="piesa">concert punk</td>
+                                <td class="trupa">Watican Punk Ballet</td>
+                                <td class="locatie">Tam Tam <span class="ora">21:00</span></td>
+                            </tr>
 
-                        <tr class="<?php echo ($antagonDay == 4) ? 'is-active' : '' ?>">
-                            <td class="ziua" rowspan="3">Miercuri <span class="data">21 oct</span></td>
-                            <td class="piesa">Alearga</td>
-                            <td class="trupa">Nicoleta Lefter</td>
-                            <td class="locatie">Amabasada <span class="ora">19:00</span></td>
-                        </tr>
-                        <tr class="<?php echo ($antagonDay == 4) ? 'is-active' : '' ?>">
-                            <td class="piesa">Defilarea costumelor</td>
-                            <td class="trupa">Ion Barbu</td>
-                            <td class="locatie">Club Daos <span class="ora">20:30</span></td>
-                        </tr>
-                        <tr class="<?php echo ($antagonDay == 4) ? 'is-active' : '' ?>">
-                            <td class="piesa" colspan="2">Concert Ada Milea</td>
-                            <!-- <td class="trupa"></td> -->
-                            <td class="locatie">Club Daos <span class="ora">22:00</span></td>
-                        </tr>
+                            <tr class="<?php echo ($antagonDay == 4) ? 'is-active' : '' ?>">
+                                <td class="ziua" rowspan="3">Miercuri <span class="data">21 oct</span></td>
+                                <td class="piesa">Alearga</td>
+                                <td class="trupa">Nicoleta Lefter</td>
+                                <td class="locatie">Amabasada <span class="ora">19:00</span></td>
+                            </tr>
+                            <tr class="<?php echo ($antagonDay == 4) ? 'is-active' : '' ?>">
+                                <td class="piesa">Defilarea costumelor</td>
+                                <td class="trupa">Ion Barbu</td>
+                                <td class="locatie">Club Daos <span class="ora">20:30</span></td>
+                            </tr>
+                            <tr class="<?php echo ($antagonDay == 4) ? 'is-active' : '' ?>">
+                                <td class="piesa" colspan="2">Concert Ada Milea</td>
+                                <!-- <td class="trupa"></td> -->
+                                <td class="locatie">Club Daos <span class="ora">22:00</span></td>
+                            </tr>
 
-                        <tr class="<?php echo ($antagonDay == 5) ? 'is-active' : '' ?>">
-                            <td class="ziua" rowspan="2">Joi <span class="data">22 oct</span></td>
-                            <td class="piesa">Zero</td>
-                            <td class="trupa">Varoterem Projekt</td>
-                            <td class="locatie">Galeria Triade <span class="ora">19:00</span></td>
-                        </tr>
-                        <tr class="<?php echo ($antagonDay == 5) ? 'is-active' : '' ?>">
-                            <td class="piesa">Razbunare</td>
-                            <td class="trupa">Unteatru</td>
-                            <td class="locatie">Galeria Triade <span class="ora">21:00</span></td>
-                        </tr>
+                            <tr class="<?php echo ($antagonDay == 5) ? 'is-active' : '' ?>">
+                                <td class="ziua" rowspan="2">Joi <span class="data">22 oct</span></td>
+                                <td class="piesa">Zero</td>
+                                <td class="trupa">Varoterem Projekt</td>
+                                <td class="locatie">Galeria Triade <span class="ora">19:00</span></td>
+                            </tr>
+                            <tr class="<?php echo ($antagonDay == 5) ? 'is-active' : '' ?>">
+                                <td class="piesa">Razbunare</td>
+                                <td class="trupa">Unteatru</td>
+                                <td class="locatie">Galeria Triade <span class="ora">21:00</span></td>
+                            </tr>
 
-                        <tr class="<?php echo ($antagonDay == 6) ? 'is-active' : '' ?>">
-                            <td class="ziua" rowspan="2">Vineri <span class="data">23 oct</span></td>
-                            <td class="piesa">Nascut in 90</td>
-                            <td class="trupa">Bis</td>
-                            <td class="locatie">??? <span class="ora">19:00</span></td>
-                        </tr>
-                        <tr class="<?php echo ($antagonDay == 6) ? 'is-active' : '' ?>">
-                            <td class="piesa">Dureri Fantoma</td>
-                            <td class="trupa">Teatrul de Arta</td>
-                            <td class="locatie">??? <span class="ora">21:00</span></td>
-                        </tr>
+                            <tr class="<?php echo ($antagonDay == 6) ? 'is-active' : '' ?>">
+                                <td class="ziua" rowspan="2">Vineri <span class="data">23 oct</span></td>
+                                <td class="piesa">Nascut in 90</td>
+                                <td class="trupa">Bis</td>
+                                <td class="locatie">??? <span class="ora">19:00</span></td>
+                            </tr>
+                            <tr class="<?php echo ($antagonDay == 6) ? 'is-active' : '' ?>">
+                                <td class="piesa">Dureri Fantoma</td>
+                                <td class="trupa">Teatrul de Arta</td>
+                                <td class="locatie">??? <span class="ora">21:00</span></td>
+                            </tr>
 
-                        <tr class="<?php echo ($antagonDay == 7) ? 'is-active' : '' ?>">
-                            <td class="ziua" rowspan="2">Sambata <span class="data">24 oct</span></td>
-                            <td class="piesa">9 din 10</td>
-                            <td class="trupa">Reactor</td>
-                            <td class="locatie">Electric Theatre <span class="ora">19:00</span></td>
-                        </tr>
-                        <tr class="<?php echo ($antagonDay == 7) ? 'is-active' : '' ?>">
-                            <td class="piesa">Dumnezeul de a doua zi</td>
-                            <td class="trupa">Electric Theatre</td>
-                            <td class="locatie">Electric Theatre <span class="ora">19:00</span></td>
-                        </tr>
+                            <tr class="<?php echo ($antagonDay == 7) ? 'is-active' : '' ?>">
+                                <td class="ziua" rowspan="2">Sambata <span class="data">24 oct</span></td>
+                                <td class="piesa">9 din 10</td>
+                                <td class="trupa">Reactor</td>
+                                <td class="locatie">Electric Theatre <span class="ora">19:00</span></td>
+                            </tr>
+                            <tr class="<?php echo ($antagonDay == 7) ? 'is-active' : '' ?>">
+                                <td class="piesa">Dumnezeul de a doua zi</td>
+                                <td class="trupa">Electric Theatre</td>
+                                <td class="locatie">Electric Theatre <span class="ora">19:00</span></td>
+                            </tr>
 
-                        <tr class="<?php echo ($antagonDay == 8) ? 'is-active' : '' ?>">
-                            <td class="ziua" rowspan="2">Duminica <span class="data">25 oct</span></td>
-                            <td class="piesa">Public Land Hotel spectacol lectura</td>
-                            <td class="trupa">Katarzyna Raduszynska</td>
-                            <td class="locatie">Scart, loc lejer <span class="ora">18:00</span></td>
-                        </tr>
-                        <tr class="<?php echo ($antagonDay == 8) ? 'is-active' : '' ?>">
-                            <td class="piesa">Casa din copac</td>
-                            <td class="trupa">Aualeu Teatru</td>
-                            <td class="locatie">Scart, loc lejer <span class="ora">20:00</span></td>
-                        </tr>
-                    </tbody>
-                </table>
+                            <tr class="<?php echo ($antagonDay == 8) ? 'is-active' : '' ?>">
+                                <td class="ziua" rowspan="2">Duminica <span class="data">25 oct</span></td>
+                                <td class="piesa">Public Land Hotel spectacol lectura</td>
+                                <td class="trupa">Katarzyna Raduszynska</td>
+                                <td class="locatie">Scart, loc lejer <span class="ora">18:00</span></td>
+                            </tr>
+                            <tr class="<?php echo ($antagonDay == 8) ? 'is-active' : '' ?>">
+                                <td class="piesa">Casa din copac</td>
+                                <td class="trupa">Aualeu Teatru</td>
+                                <td class="locatie">Scart, loc lejer <span class="ora">20:00</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Bilete -->
-    <section id="bilete" class="container content-section content-section--separator text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Bilete</h2>
-                <p>Biletele pentru spectacolele din cadrul festivalului se pot cumpara in avans de la:</p>
-                <ul class="list-unstyled">
-                    <li>Scârț, Loc lejer</li>
-                    <li>Librăria Cărturești Mercy</li>
-                    <li>Ambasada</li>
-                </ul>
-                <br>
-                <p>Biletele costă 25 de lei <br>și permit accesul la ambele spectacole programate într-o zi.</p>
+    <section id="bilete">
+        <div class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Bilete</h2>
+                    <br>
+                    <br>
+                    <p>Biletele pentru spectacolele din cadrul festivalului se pot cumpara in avans de la:</p>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="logo-scart">Scârț, Loc lejer</a></li>
+                        <li><a href="#" class="logo-carturesti">Librăria Cărturești Mercy</a></li>
+                        <li><a href="#" class="logo-ambasada">Ambasada</a></li>
+                    </ul>
+                    <br>
+                    <br>
+                    <p>Biletele costă 25 de lei <br>și permit accesul la ambele spectacole programate într-o zi.</p>
+                </div>
             </div>
         </div>
     </section>

@@ -223,9 +223,6 @@ a:focus {
 .content-section {
     padding-top: 8em;
 }
-.content-section--separator {
-    border-bottom: 1px #222 solid;
-}
 
 .download-section {
     width: 100%;
@@ -389,5 +386,36 @@ body {
     }
     #program .data {
         display: inline;
+    }
+}
+
+#bilete li {
+    display: inline-block;
+    padding: 0 2em;
+}
+#bilete li a:link {
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-top: 100px;
+    min-width: 100px;
+}
+.logo-scart {
+    background-image: url('../img/logo-scart.png');
+}
+.logo-carturesti {
+    background-image: url('../img/logo-carturesti.png');
+}
+.logo-ambasada {
+    background-image: url('../img/logo-ambasada.png');
+}
+
+/* header images */
+@media(min-width: 767px) {
+    #program {
+        background: url('../img/header-program.png') center top no-repeat;
+    }
+    #bilete {
+        background: url('../img/header-bilete.png') center 100px no-repeat;
     }
 }
