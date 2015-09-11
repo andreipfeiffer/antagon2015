@@ -111,12 +111,10 @@ switch ($date) {
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <img src="img/header-antagon-festival.png" alt="Antagon Festival, Timisoara 18-25 octombrie 2015" id="banner-header">
-                        <a href="#program" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
                     </div>
                 </div>
             </div>
+            <a href="#program" class="page-scroll arrow">Programul festivalului</a>
         </div>
     </header>
 
