@@ -413,6 +413,7 @@ body {
     font-family: Harrington, "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-left: 40px;
     padding-top: 65px;
+    margin: 0 0.5em;
 }
 .galerie:hover {
     color: #fff;
