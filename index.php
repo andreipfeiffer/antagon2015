@@ -311,10 +311,10 @@ switch ($date) {
                         </p>
                         <ul class="list-inline banner-social-buttons">
                             <li>
-                                <a href="https://www.facebook.com/antagonfestival" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                                <a href="https://www.facebook.com/antagonfestival" class="facebook">Facebook</a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/antagonfestival" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a href="https://twitter.com/antagonfestival" class="twitter">Twitter</a>
                             </li>
                         </ul>
                         <br>

@@ -266,32 +266,21 @@ a:focus {
     }
 }
 
-.btn {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.btn-default {
-    border: 1px solid #219ab3;
-    color: #219ab3;
-    background-color: transparent;
-}
-
-.btn-default:hover,
-.btn-default:focus {
-    border: 1px solid #219ab3;
-    outline: 0;
-    color: #000;
-    background-color: #219ab3;
-}
-
 .banner-social-buttons {
     margin-top: 0;
 }
+.banner-social-buttons a {
+    text-align: left;
+    text-indent: -9999em;
+    width: 126px;
+    height: 126px;
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 1em;
+}
+.facebook { background-image: url('../img/facebook.png'); }
+.twitter  { background-image: url('../img/twitter.png'); }
 
 @media(max-width:1199px) {
     .banner-social-buttons {
