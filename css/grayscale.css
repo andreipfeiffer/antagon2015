@@ -201,20 +201,7 @@ a:focus {
     padding-top: 8em;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 .contact-section {
-    background-color: #111;
     width: 100%;
     padding: 50px 0;
     margin: 0;
@@ -397,6 +384,12 @@ body {
 }
 .galerie--2014 { background-image: url('../img/galerie-2014.png'); }
 .galerie--2015 { background-image: url('../img/galerie-2015.png'); }
+
+#sponsori {
+    background: url(../img/background-footer.png) no-repeat center top;
+    color: #000;
+    padding-top: 5em;
+}
 
 /* header images */
 @media(min-width: 767px) {

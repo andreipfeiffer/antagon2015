@@ -278,24 +278,6 @@ switch ($date) {
         </div>
     </section>
 
-    <!-- Sustinatori -->
-    <section id="sponsori" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Sustinatori</h2>
-                        <p>Le mulțumim celor fără de care Antagon Festival nu ar fi la fel</p>
-
-                        <h3>Sponsori</h3>
-
-                        <h3>Parteneri</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
     <section id="contact" class="text-center">
         <div class="contact-section">
@@ -353,13 +335,27 @@ switch ($date) {
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Antagon Festival 2015</p>
-            <p><small>Based on the free <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale theme</a></small></p>
+    <!-- Sustinatori -->
+    <section id="sponsori" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Sustinatori</h2>
+                    <p>Le mulțumim celor fără de care Antagon Festival nu ar fi la fel</p>
+
+                    <h3>Sponsori</h3>
+
+                    <h3>Parteneri</h3>
+                </div>
+            </div>
         </div>
-    </footer>
+        <br>
+        <div class="container text-center">
+            <small>Copyright &copy; Antagon Festival 2015</small><br>
+            <small>Based on the free <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale theme</a></small><br>
+            <br>
+        </div>
+    </section>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
