@@ -251,10 +251,10 @@ a:focus {
     }
 }
 
-.banner-social-buttons {
+.social-buttons {
     margin-top: 0;
 }
-.banner-social-buttons a {
+.social-buttons a {
     text-align: left;
     text-indent: -9999em;
     width: 126px;
@@ -267,20 +267,27 @@ a:focus {
 .facebook { background-image: url('../img/facebook.png'); }
 .twitter  { background-image: url('../img/twitter.png'); }
 
+@media(min-width: 767px) {
+    .social-buttons a {
+        width: 126px;
+        height: 126px;
+    }
+}
+
 @media(max-width:1199px) {
-    .banner-social-buttons {
+    .social-buttons {
         margin-top: 15px;
     }
 }
 
 @media(max-width:767px) {
-    .banner-social-buttons li {
+    .social-buttons li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
 
-    .banner-social-buttons li:last-child {
+    .social-buttons li:last-child {
         margin-bottom: 0;
     }
 }

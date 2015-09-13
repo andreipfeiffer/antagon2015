@@ -285,14 +285,10 @@ switch ($date) {
                             <a href="mailto:bogdan.cotirta@antagonfestival.ro">bogdan.cotirta@antagonfestival.ro</a><br>
                             0040 749 402521
                         </p>
-                        <ul class="list-inline banner-social-buttons">
-                            <li>
-                                <a href="https://www.facebook.com/antagonfestival" class="facebook">Facebook</a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/antagonfestival" class="twitter">Twitter</a>
-                            </li>
-                        </ul>
+                        <div class="social-buttons">
+                            <a href="https://www.facebook.com/antagonfestival" class="facebook">Facebook</a>
+                            <a href="https://twitter.com/antagonfestival" class="twitter">Twitter</a>
+                        </div>
                         <br>
                         <br>
                         <br>
