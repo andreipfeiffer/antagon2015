@@ -257,11 +257,12 @@ a:focus {
 .social-buttons a {
     text-align: left;
     text-indent: -9999em;
-    width: 126px;
-    height: 126px;
+    width: 63px;
+    height: 63px;
     display: inline-block;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: 100%;
     margin: 0 1em;
 }
 .facebook { background-image: url('../img/facebook.png'); }
@@ -401,18 +402,19 @@ body {
 
 .galerie {
     display: inline-block;
-    width: 200px;
-    height: 199px;
+    width: 100px;
+    height: 100px;
     text-align: left;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: 100%;
     color: #000;
-    font-size: 50px;
+    font-size: 22px;
     font-style: italic;
     font-weight: bold;
     font-family: Harrington, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding-left: 40px;
-    padding-top: 65px;
+    padding-left: 24px;
+    padding-top: 38px;
     margin: 0 0.5em;
 }
 .galerie:hover {
@@ -420,6 +422,17 @@ body {
 }
 .galerie--2014 { background-image: url('../img/galerie-2014.png'); }
 .galerie--2015 { background-image: url('../img/galerie-2015.png'); }
+
+@media(min-width: 767px) {
+    .galerie {
+        width: 200px;
+        height: 199px;
+        font-size: 50px;
+        background-size: auto;
+        padding-left: 40px;
+        padding-top: 65px;
+    }
+}
 
 #sponsori {
     background: url(../img/background-footer.png) no-repeat center top;
