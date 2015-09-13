@@ -80,7 +80,7 @@ switch ($date) {
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
+                    Menu
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
                     <!-- <i class="fa fa-play-circle"></i> --> Antagon <span class="light hidden-sm">Festival</span>

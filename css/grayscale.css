@@ -100,7 +100,11 @@ a:focus {
 }
 
 .navbar-custom .navbar-toggle {
-    margin: 4px 7px 4px 0;
+    margin: 4px 0 4px 0;
+    text-align: left;
+    text-indent: -9999em;
+    background: url('../img/icon-menu.svg') no-repeat center center;
+    background-size: 40%;
 }
 
 .navbar-custom a {
