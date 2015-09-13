@@ -95,7 +95,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -108,6 +108,11 @@ a:focus {
     text-indent: -9999em;
     background: url('../img/icon-menu.svg') no-repeat center center;
     background-size: 40%;
+}
+@media(min-width:767px) {
+    .navbar-custom .navbar-brand {
+        font-size: 24px;
+    }
 }
 
 .navbar-custom a {
