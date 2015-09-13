@@ -233,8 +233,6 @@ switch ($date) {
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Bilete</h2>
-                    <br>
-                    <br>
                     <p>Biletele pentru spectacolele din cadrul festivalului se pot cumpara in avans de la:</p>
                     <ul class="list-unstyled">
                         <li><a href="#" class="logo-scart">Scârț, Loc lejer</a></li>
@@ -255,9 +253,6 @@ switch ($date) {
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Despre</h2>
-                    <br>
-                    <br>
-                    <br>
                     <p>Antagon Festival este un eveniment dedicat companiilor și publicului de teatru independent.</p>
                     <p>A avut prima ediție în 2014, când numărul mare de spectatori ne-a convins să organizăm și o a doua ediție. Organizatorul evenimentului este Asociația Culturală Antagon. Încă de la prima ediție ne-am propus să oferim trupelor de teatru ce dezvoltă spectacole în regim independent, o platformă de prezentare a acestora publicului din Timișoara.</p>
                     <p>Selecția spectacolelor este făcută de către organizatori, singurele criterii fiind calitatea spectacolului și apartenența acestuia la scena independentă. </p>

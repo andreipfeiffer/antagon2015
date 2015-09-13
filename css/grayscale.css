@@ -37,7 +37,7 @@ h6 {
     letter-spacing: 1px;
 }
 h2 {
-    font-size: 3em;
+    font-size: 2em;
 }
 h3 {
     font-size: 1em;
@@ -46,12 +46,12 @@ h3 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
 @media(min-width:767px) {
-    h1 {
+    h2 {
         font-size: 4em;
     }
     p {
@@ -422,6 +422,11 @@ body {
 
 /* header images */
 @media(min-width: 767px) {
+    #despre h2,
+    #bilete h2 {
+        margin-bottom: 2em;
+    }
+
     #program {
         background: url('../img/header-program.png') center top no-repeat;
     }
