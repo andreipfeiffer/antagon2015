@@ -176,7 +176,7 @@ a:focus {
     display: table;
     width: 100%;
     height: 100%;
-    min-height: 1000px;
+    /*min-height: 1000px;*/
     text-align: center;
     position: relative;
 }
@@ -187,12 +187,12 @@ a:focus {
 }
 
 .arrow {
+    display: none;
     text-align: left;
     text-indent: -9999em;
     background: url('../img/arrow.png') no-repeat center center;
     width: 121px;
     height: 125px;
-    display: inline-block;
     opacity: 0.5;
     margin-top: 5em;
     position: absolute;
@@ -202,6 +202,15 @@ a:focus {
 .arrow:hover {
     opacity: 1;
     transform: translate(0, 1em);
+}
+
+@media(min-width:767px) {
+    .intro {
+        min-height: 1000px;
+    }
+    .arrow {
+        display: inline-block;
+    }
 }
 
 .content-section {
