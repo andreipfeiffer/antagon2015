@@ -363,8 +363,9 @@ body {
     padding: 0 2em;
 }
 #bilete li a:link {
-    background-position: top center;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-size: auto 50%;
     display: inline-block;
     padding-top: 100px;
     min-width: 100px;
@@ -377,6 +378,13 @@ body {
 }
 .logo-ambasada {
     background-image: url('../img/logo-ambasada.png');
+}
+
+@media(min-width:767px) {
+    #bilete li a:link {
+        background-position: center top;
+        background-size: auto auto;
+    }
 }
 
 .galerie {
