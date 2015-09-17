@@ -160,7 +160,7 @@ switch ($date) {
                                 <td class="ziua" rowspan="3">Miercuri <span class="data">21 oct</span></td>
                                 <td class="piesa">Alearga</td>
                                 <td class="trupa">Nicoleta Lefter</td>
-                                <td class="locatie">Amabasada <span class="ora">19:00</span></td>
+                                <td class="locatie">Ambasada <span class="ora">19:00</span></td>
                             </tr>
                             <tr class="<?php echo ($antagonDay == 4) ? 'is-active' : '' ?>">
                                 <td class="piesa">Defilarea costumelor</td>
@@ -206,7 +206,7 @@ switch ($date) {
                             <tr class="<?php echo ($antagonDay == 7) ? 'is-active' : '' ?>">
                                 <td class="piesa">Dumnezeul de a doua zi</td>
                                 <td class="trupa">Electric Theatre</td>
-                                <td class="locatie">Electric Theatre <span class="ora">19:00</span></td>
+                                <td class="locatie">Electric Theatre <span class="ora">21:00</span></td>
                             </tr>
 
                             <tr class="<?php echo ($antagonDay == 8) ? 'is-active' : '' ?>">
