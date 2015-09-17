@@ -83,19 +83,27 @@ a:focus {
     text-transform: uppercase;
     font-family: Harrington, "Helvetica Neue", Helvetica, Arial, sans-serif;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    background-color: #fff;
+    background: #fff;
     color: #000;
     font-size: 16px;
+    height: 50px;
+}
+.navbar-collapse {
+    background: white;
 }
 @media(min-width:767px) {
     .navbar-custom {
         background: url('../img/menu.png') center bottom no-repeat;
+    }
+    .navbar-collapse {
+        background: none;
     }
 }
 
 .navbar-custom .navbar-brand {
     font-weight: bold;
     font-size: 18px;
+
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -112,6 +120,11 @@ a:focus {
 @media(min-width:767px) {
     .navbar-custom .navbar-brand {
         font-size: 24px;
+        line-height: 100px;
+        padding: 0;
+    }
+    .top-nav-collapse .navbar-brand {
+        line-height: 60px;
     }
 }
 
@@ -120,45 +133,58 @@ a:focus {
     font-weight: bold;  
 }
 
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out, line-height .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out, line-height .3s ease-in-out;
+    transition: background .3s ease-in-out, line-height .3s ease-in-out;
+}
 .navbar-custom .nav li.active {
     outline: none;
-    background-color: rgba(255,255,255,.3);
+    /*background-color: rgba(255,255,255,.3);*/
 }
 
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.3);
-}
 .navbar-custom .nav li a:focus {
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 @media(min-width:767px) {
     .navbar {
-        padding: 25px 0;
+        height: 100px;
         border-bottom: 0;
         letter-spacing: 0px;
-        -webkit-transition: background .3s ease-out,padding .3s ease-out;
-        -moz-transition: background .3s ease-out,padding .3s ease-out;
-        transition: background .3s ease-out,padding .3s ease-out;
+        -webkit-transition: background .3s ease-out,height .3s ease-out;
+        -moz-transition: background .3s ease-out,height .3s ease-out;
+        transition: background .3s ease-out,height .3s ease-out;
+    }
+
+    .navbar-custom .nav li a {
+        padding: 0 10px;
+        height: 100px;
+        line-height: 100px;
+        background: url('../img/hover-menu.png') no-repeat center -100px;
+    }
+
+    .navbar-custom .nav li a:hover,
+    /*.navbar-custom .nav li a:focus,*/
+    .navbar-custom .nav li.active a {
+        outline: 0;
+        background-position: center -35px;
+        line-height: 120px;
     }
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
+        height: 60px;
     }
-
-    .navbar-custom .nav li a {
-        padding-left: 10px;
-        padding-right: 10px;
+    .top-nav-collapse .nav li a {
+        height: 60px;
+        line-height: 60px;
+    }
+    .top-nav-collapse .nav li a:hover,
+    /*.top-nav-collapse .nav li a:focus,*/
+    .top-nav-collapse .nav li.active a {
+        background-position: center -50px;
+        line-height: 70px;
     }
 }
 @media(min-width:1025px) {
