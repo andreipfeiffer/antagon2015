@@ -301,8 +301,11 @@ switch ($date) {
                     <p>Le mulțumim celor fără de care Antagon Festival nu ar fi la fel</p>
 
                     <h3>Sponsori</h3>
+                    Terapia, Zopas, Becherovka, Tatra Tea
 
                     <h3>Parteneri</h3>
+                    Aualeu Teatru, Scart loc lejer, Electric Theatre, Ambasada, Daos, Galeria Triade, Tam Tam, TVR Timisoara
+
                 </div>
             </div>
         </div>
