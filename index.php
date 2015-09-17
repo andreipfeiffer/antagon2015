@@ -94,8 +94,8 @@ switch ($date) {
                     <li><a class="page-scroll" href="#bilete">Bilete</a></li>
                     <li><a class="page-scroll" href="#despre">Despre</a></li>
                     <li><a class="page-scroll" href="#galerie">Galerie</a></li>
-                    <li><a class="page-scroll" href="#sponsori">Sustinatori</a></li>
                     <li><a class="page-scroll" href="#contact">Contact</a></li>
+                    <li><a class="page-scroll" href="#sponsori">Sustinatori</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
