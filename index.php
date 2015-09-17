@@ -241,7 +241,8 @@ switch ($date) {
                     </ul>
                     <br>
                     <br>
-                    <p>Biletele costă 25 de lei <br>și permit accesul la ambele spectacole programate într-o zi.</p>
+                    <p>Biletele costă 25 de lei <br>și permit accesul la toate spectacolele programate într-o zi.</p>
+                    <p>Abonamentele costă 100 de lei <br>și permit accesul la toate spectacolele din cadrul festivalului.</p>
                 </div>
             </div>
         </div>
