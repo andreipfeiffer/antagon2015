@@ -275,25 +275,18 @@ switch ($date) {
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="text-center">
-        <div class="contact-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Contact</h2>
-                        <p>Ne puteți contacta pe email sau la telefon:</p>
-                        <p>
-                            <a href="mailto:bogdan.cotirta@antagonfestival.ro">bogdan.cotirta@antagonfestival.ro</a><br>
-                            0040 749 402521
-                        </p>
-                        <div class="social-buttons">
-                            <a href="https://www.facebook.com/antagonfestival" class="facebook">Facebook</a>
-                            <a href="https://twitter.com/antagonfestival" class="twitter">Twitter</a>
-                        </div>
-                        <br>
-                        <br>
-                        <br>
-                    </div>
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact</h2>
+                <p>Ne puteți contacta pe email sau la telefon:</p>
+                <p>
+                    <a href="mailto:bogdan.cotirta@antagonfestival.ro">bogdan.cotirta@antagonfestival.ro</a><br>
+                    0040 749 402521
+                </p>
+                <div class="social-buttons">
+                    <a href="https://www.facebook.com/antagonfestival" class="facebook">Facebook</a>
+                    <a href="https://twitter.com/antagonfestival" class="twitter">Twitter</a>
                 </div>
             </div>
         </div>
