@@ -347,48 +347,60 @@ body {
 
 
 /* Program */
-#program .ora {
-    float: right;
+#program h2 {
+    margin-bottom: 2em;
 }
-#program .data {
-    display: block;
+#program .ziua {
+    background: url('../img/separator.png') no-repeat center bottom;
+    font-size: 16px;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
 }
-#program .is-active {
-    background: #222;
+#program h3 {
+    margin: 0;
+}
+#program h3 .data {
+    color: #888;
 }
 
-@media(max-width:767px) {
-    #program td {
-        display: block;
-        border-top: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    #program td:last-child {
-        border-bottom: 1px #aaa solid;
-        padding-bottom: 0.5em;
-    }
-    #program .ziua {
-        background-color: #444;
-        /* to hide the border from the previous element */
-        margin-top: -1px;
-        line-height: 2em;
-    }
-    #program .piesa {
-        font-weight: bold;
-        font-size: 16px;
+#program ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    padding-top: 1em;
+}
+    .piesa {
         padding-top: 0.5em;
     }
-    #program .trupa {
-        color: #888;
+        .piesa .nume {
+            float: left;
+            width: 60%;
+        }
+            .piesa .trupa {
+                color: #888;
+                padding-left: 0.5em;
+            }
+        .piesa .locatie {
+            float: right;
+            width: 40%;
+            text-align: right;
+        }
+            .piesa .ora {
+                color: #888;
+                display: inline-block;
+                width: 3em;
+            }
+@media(min-width: 767px) {
+    .piesa .nume {
+        width: 55%;
+        padding-left: 10%;
     }
-    #program .ora {
-        float: none;
-    }
-    #program .data {
-        display: inline;
+    .piesa .locatie {
+        width: 45%;
+        padding-right: 10%;
     }
 }
+
 
 #bilete li {
     display: inline-block;
