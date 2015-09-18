@@ -132,7 +132,7 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
             <section class="container ziua <?php echo ($antagonDay == 1) ? 'is-active' : '' ?>">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h3>Duminica <span class="data">18 oct</span></h3>
+                        <h3>Duminică <span class="data">18 oct</span></h3>
                         <ul>
                             <li class="clearfix piesa">
                                 <strong class="nume">Ferma animalelor <span class="trupa">Auăleu Teatru</span></strong>
