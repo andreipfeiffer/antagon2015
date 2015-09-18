@@ -38,6 +38,13 @@ switch ($date) {
         $antagonDay = 0;
         break;
 }
+
+$url['ambasada'] = 'https://www.google.ro/maps/place/Ambasada/@45.7501748,21.2154378,15z/data=!4m2!3m1!1s0x0:0x281f14b770d4fcdc';
+$url['scart']    = 'https://www.google.ro/maps/place/Sc%C3%A2r%C8%9B+Loc+Lejer/@45.7430969,21.2242287,15z/data=!4m2!3m1!1s0x0:0xfd547ee501d53b10';
+$url['electric'] = 'https://www.google.ro/maps/place/Electric+Theater/@45.7442509,21.2360416,15z/data=!4m2!3m1!1s0x0:0x891c1e5e6cf1587f';
+$url['daos']     = 'https://www.google.ro/maps/place/Daos+club/@45.7504715,21.2165254,15z/data=!4m2!3m1!1s0x0:0x51ce14e9247d8378';
+$url['triade']   = 'https://www.google.ro/maps/place/Parcul+Triade,+Strada+Maximilian+Fremont,+Timi%C8%99oara/@45.7284496,21.2376464,17z/data=!3m1!4b1!4m2!3m1!1s0x47455dc0acdb9003:0x958d8892a9bec2dc';
+$url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.748673,21.251619?map=45.74881,21.25221,17,traffic&fb_locale=en_US';
 ?>
 
 <head>
@@ -143,11 +150,11 @@ switch ($date) {
                         <ul>
                             <li class="clearfix piesa">
                                 <strong class="nume">Foc de voie <span class="trupa">Ionuț Caraș</span></strong>
-                                <span class="locatie">Ambasada <span class="ora">19:00</span></span>
+                                <span class="locatie"><a href="<?=$url["ambasada"]?>">Ambasada</a> <span class="ora">19:00</span></span>
                             </li>
                             <li class="clearfix piesa">
                                 <strong class="nume">Voi n-ați vazut nimic <strong class="trupa">David Schwartz</strong></strong>
-                                <span class="locatie">Ambasada <span class="ora">21:00</span></span>
+                                <span class="locatie"><a href="<?=$url["ambasada"]?>">Ambasada</a> <span class="ora">21:00</span></span>
                             </li>
                         </ul>
                     </div>
@@ -161,11 +168,11 @@ switch ($date) {
                         <ul>
                             <li class="clearfix piesa">
                                 <strong class="nume">Uord <span class="trupa">ASA triO</span></strong>
-                                <span class="locatie">Tam Tam <span class="ora">19:00</span></span>
+                                <span class="locatie"><a href="<?=$url["tamtam"]?>">Tam Tam</a> <span class="ora">19:00</span></span>
                             </li>
                             <li class="clearfix piesa">
                                 <strong class="nume">Concert Punk <span class="trupa">Watican Punk Ballet</span></strong>
-                                <span class="locatie">Tam Tam <span class="ora">21:00</span></span>
+                                <span class="locatie"><a href="<?=$url["tamtam"]?>">Tam Tam</a> <span class="ora">21:00</span></span>
                             </li>
                         </ul>
                     </div>
@@ -179,15 +186,15 @@ switch ($date) {
                         <ul>
                             <li class="clearfix piesa">
                                 <strong class="nume">Aleargă <span class="trupa">Nicoleta Lefter</span></strong>
-                                <span class="locatie">Ambasada <span class="ora">19:00</span></span>
+                                <span class="locatie"><a href="<?=$url["ambasada"]?>">Ambasada</a> <span class="ora">19:00</span></span>
                             </li>
                             <li class="clearfix piesa">
                                 <strong class="nume">Defilarea costumelor <span class="trupa">Ion Barbu</span></strong>
-                                <span class="locatie">Club Daos <span class="ora">20:30</span></span>
+                                <span class="locatie"><a href="<?=$url["daos"]?>">Club Daos</a> <span class="ora">20:30</span></span>
                             </li>
                             <li class="clearfix piesa">
                                 <strong class="nume">Concert Ada Milea</strong>
-                                <span class="locatie">Club Daos <span class="ora">22:00</span></span>
+                                <span class="locatie"><a href="<?=$url["daos"]?>">Club Daos</a> <span class="ora">22:00</span></span>
                             </li>
                         </ul>
                     </div>
@@ -201,11 +208,11 @@ switch ($date) {
                         <ul>
                             <li class="clearfix piesa">
                                 <strong class="nume">Zero <span class="trupa">Varoterem Projekt</span></strong>
-                                <span class="locatie">Galeria Triade <span class="ora">19:00</span></span>
+                                <span class="locatie"><a href="<?=$url["triade"]?>">Galeria Triade</a> <span class="ora">19:00</span></span>
                             </li>
                             <li class="clearfix piesa">
                                 <strong class="nume">Răzbunare <span class="trupa">Unteatru</span></strong>
-                                <span class="locatie">Galeria Triade <span class="ora">21:00</span></span>
+                                <span class="locatie"><a href="<?=$url["triade"]?>">Galeria Triade</a> <span class="ora">21:00</span></span>
                             </li>
                         </ul>
                     </div>
@@ -237,11 +244,11 @@ switch ($date) {
                         <ul>
                             <li class="clearfix piesa">
                                 <strong class="nume">9 din 10 <span class="trupa">Reactor</span></strong>
-                                <span class="locatie">Electric Theatre <span class="ora">19:00</span></span>
+                                <span class="locatie"><a href="<?=$url["electric"]?>">Electric Theatre</a> <span class="ora">19:00</span></span>
                             </li>
                             <li class="clearfix piesa">
                                 <strong class="nume">Dumnezeul de a doua zi <span class="trupa">Electric Theatre</span></strong>
-                                <span class="locatie">Electric Theatre <span class="ora">21:00</span></span>
+                                <span class="locatie"><a href="<?=$url["electric"]?>">Electric Theatre</a> <span class="ora">21:00</span></span>
                             </li>
                         </ul>
                     </div>
@@ -255,11 +262,11 @@ switch ($date) {
                         <ul>
                             <li class="clearfix piesa">
                                 <strong class="nume">Public Land Hotel <span class="trupa">Katarzyna Raduszynska</span></strong>
-                                <span class="locatie">Scârț, Loc lejer <span class="ora">18:00</span></span>
+                                <span class="locatie"><a href="<?=$url["scart"]?>">Scârț, Loc lejer</a> <span class="ora">18:00</span></span>
                             </li>
                             <li class="clearfix piesa">
                                 <strong class="nume">Casa din copac <span class="trupa">Auăleu Teatru</span></strong>
-                                <span class="locatie">Scârț, Loc lejer <span class="ora">20:00</span></span>
+                                <span class="locatie"><a href="<?=$url["scart"]?>">Scârț, Loc lejer</a> <span class="ora">20:00</span></span>
                             </li>
                         </ul>
                     </div>
@@ -276,9 +283,9 @@ switch ($date) {
                     <h2>Bilete</h2>
                     <p>Biletele pentru spectacolele din cadrul festivalului se pot cumpara în avans de la:</p>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="logo-scart">Scârț, Loc lejer</a></li>
-                        <li><a href="#" class="logo-carturesti">Librăria Cărturești Mercy</a></li>
-                        <li><a href="#" class="logo-ambasada">Ambasada</a></li>
+                        <li><a href="https://www.facebook.com/scartloclejer" class="logo-scart">Scârț, Loc lejer</a></li>
+                        <li><a href="https://www.facebook.com/Carturesti.TM" class="logo-carturesti">Librăria Cărturești Mercy</a></li>
+                        <li><a href="https://www.facebook.com/ambasadaPLAI" class="logo-ambasada">Ambasada</a></li>
                     </ul>
                     <br>
                     <br>
