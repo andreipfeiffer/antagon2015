@@ -352,26 +352,26 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
                         <section>
                             <h3>Sponsori</h3>
                             <div>
-                                <a href="#"><img src="img/sustinatori/logo-clinica-de-bere.png" alt="Clinica de Bere"></a>
-                                <a href="#"><img src="img/sustinatori/logo-zoppas.png" alt="Zoppas Industries"></a>
-                                <a href="#"><img src="img/sustinatori/logo-becherovka.png" alt="Becherovka"></a>
-                                <a href="#"><img src="img/sustinatori/logo-tatratea.png" alt="Tatratea"></a>
+                                <a href="http://www.clinicadebere.ro/"><img src="img/sustinatori/logo-clinica-de-bere.png" alt="Clinica de Bere"></a>
+                                <a href="http://www.zoppas.com/"><img src="img/sustinatori/logo-zoppas.png" alt="Zoppas Industries"></a>
+                                <a href="http://www.becherovka.com/"><img src="img/sustinatori/logo-becherovka.png" alt="Becherovka"></a>
+                                <a href="http://www.tatratea.com/"><img src="img/sustinatori/logo-tatratea.png" alt="Tatratea"></a>
                             </div>
                         </section>
 
                         <section>
                             <h3>Parteneri</h3>
                             <div>
-                                <a href="#"><img src="img/sustinatori/logo-aualeu.png" alt="Aualeu Teatru"></a>
-                                <a href="#"><img src="img/sustinatori/logo-Scart.png" alt="Scârț Loc lejer"></a>
-                                <a href="#"><img src="img/sustinatori/logo-electric.png" alt="Electric Theatre"></a>
-                                <a href="#"><img src="img/sustinatori/logo-ambasada.png" alt="Ambasada Plai"></a>
-                                <a href="#"><img src="img/sustinatori/logo-daos.png" alt="Club Daos"></a>
-                                <a href="#"><img src="img/sustinatori/logo-triade.png" alt="Galeria Triade"></a>
-                                <a href="#"><img src="img/sustinatori/logo-tamtam.png" alt="Tam Tam"></a>
-                                <a href="#"><img src="img/sustinatori/logo-costel.png" alt="Hostel Costel"></a>
-                                <a href="#"><img src="img/sustinatori/logo-tvr.png" alt="TVR Timisoara"></a>
-                                <a href="#"><img src="img/sustinatori/logo-culturepl.png" alt="supported by culture.pl"></a>
+                                <a href="http://aualeu.ro/"><img src="img/sustinatori/logo-aualeu.png" alt="Aualeu Teatru"></a>
+                                <a href="https://www.facebook.com/scartloclejer"><img src="img/sustinatori/logo-Scart.png" alt="Scârț Loc lejer"></a>
+                                <a href="https://www.facebook.com/electrictheatretm"><img src="img/sustinatori/logo-electric.png" alt="Electric Theatre"></a>
+                                <a href="http://www.plai.ro/ambasada/"><img src="img/sustinatori/logo-ambasada.png" alt="Ambasada Plai"></a>
+                                <a href="https://www.facebook.com/daosclub"><img src="img/sustinatori/logo-daos.png" alt="Club Daos"></a>
+                                <a href="http://triade.ro/"><img src="img/sustinatori/logo-triade.png" alt="Galeria Triade"></a>
+                                <a href="https://www.facebook.com/SpatiulTamTam"><img src="img/sustinatori/logo-tamtam.png" alt="Tam Tam"></a>
+                                <a href="http://www.hostel-costel.ro/"><img src="img/sustinatori/logo-costel.png" alt="Hostel Costel"></a>
+                                <a href="http://timisoara.tvr.ro/"><img src="img/sustinatori/logo-tvr.png" alt="TVR Timisoara"></a>
+                                <a href="http://culture.pl/en"><img src="img/sustinatori/logo-culturepl.png" alt="supported by culture.pl"></a>
                             </div>
                         </section>
 
