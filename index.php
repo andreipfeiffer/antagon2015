@@ -363,7 +363,7 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
                             <h3>Parteneri</h3>
                             <div>
                                 <a href="http://aualeu.ro/"><img src="img/sustinatori/logo-aualeu.png" alt="Aualeu Teatru"></a>
-                                <a href="https://www.facebook.com/scartloclejer"><img src="img/sustinatori/logo-Scart.png" alt="Scârț Loc lejer"></a>
+                                <a href="https://www.facebook.com/scartloclejer"><img src="img/sustinatori/logo-scart.png" alt="Scârț Loc lejer"></a>
                                 <a href="https://www.facebook.com/electrictheatretm"><img src="img/sustinatori/logo-electric.png" alt="Electric Theatre"></a>
                                 <a href="http://www.plai.ro/ambasada/"><img src="img/sustinatori/logo-ambasada.png" alt="Ambasada Plai"></a>
                                 <a href="https://www.facebook.com/daosclub"><img src="img/sustinatori/logo-daos.png" alt="Club Daos"></a>
