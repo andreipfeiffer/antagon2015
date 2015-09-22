@@ -342,26 +342,46 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
 
     <!-- Sustinatori -->
     <section id="sponsori" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Sustinatori</h2>
-                    <p>Le mulțumim celor fără de care Antagon Festival nu ar fi la fel</p>
+        <div class="bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h2>Sustinatori</h2>
+                        <p>Le mulțumim celor fără de care Antagon Festival nu ar fi la fel</p>
 
-                    <h3>Sponsori</h3>
-                    Terapia, Zopas, Becherovka, Tatra Tea
+                        <section>
+                            <h3>Sponsori</h3>
+                            <div>
+                                <a href="#"><img src="img/sustinatori/logo-clinica-de-bere.png" alt="Clinica de Bere"></a>
+                                <a href="#"><img src="img/sustinatori/logo-zoppas.png" alt="Zoppas Industries"></a>
+                                <a href="#"><img src="img/sustinatori/logo-becherovka.png" alt="Becherovka"></a>
+                                <a href="#"><img src="img/sustinatori/logo-tatratea.png" alt="Tatratea"></a>
+                            </div>
+                        </section>
 
-                    <h3>Parteneri</h3>
-                    Aualeu Teatru, Scârț Loc lejer, Electric Theatre, Ambasada, Daos, Galeria Triade, Tam Tam, TVR Timisoara
+                        <section>
+                            <h3>Parteneri</h3>
+                            <div>
+                                <a href="#"><img src="img/sustinatori/logo-aualeu.png" alt="Aualeu Teatru"></a>
+                                <a href="#"><img src="img/sustinatori/logo-Scart.png" alt="Scârț Loc lejer"></a>
+                                <a href="#"><img src="img/sustinatori/logo-electric.png" alt="Electric Theatre"></a>
+                                <a href="#"><img src="img/sustinatori/logo-ambasada.png" alt="Ambasada Plai"></a>
+                                <a href="#"><img src="img/sustinatori/logo-daos.png" alt="Club Daos"></a>
+                                <a href="#"><img src="img/sustinatori/logo-triade.png" alt="Galeria Triade"></a>
+                                <a href="#"><img src="img/sustinatori/logo-tamtam.png" alt="Tam Tam"></a>
+                                <a href="#"><img src="img/sustinatori/logo-costel.png" alt="Hostel Costel"></a>
+                                <a href="#"><img src="img/sustinatori/logo-tvr.png" alt="TVR Timisoara"></a>
+                                <a href="#"><img src="img/sustinatori/logo-culturepl.png" alt="supported by culture.pl"></a>
+                            </div>
+                        </section>
 
+                        <div class="copyright">
+                            <small>Copyright &copy; Antagon Festival 2015</small><br>
+                            <small>Based on the free <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale theme</a></small><br>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="container text-center">
-            <small>Copyright &copy; Antagon Festival 2015</small><br>
-            <small>Based on the free <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale theme</a></small><br>
-            <br>
         </div>
     </section>
 
