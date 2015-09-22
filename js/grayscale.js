@@ -68,6 +68,9 @@ $(function() {
         ANTAGON.toggleMenu();
     });
 
+    // set inactive days
+    $('.is-active').prevAll('section').addClass('is-inactive');
+
     $('.galerie').on('click', function(e) {
         e.preventDefault();
         var year = $(this).attr('data-year');
