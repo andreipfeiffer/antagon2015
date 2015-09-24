@@ -507,10 +507,14 @@ body {
         font-size: 2em;
         margin: 2em 0 1em 0;
     }
-    #sponsori img {
-        display: inline-block;
-        margin: 1em;
+
+    .logo-list {
+        list-style-type: none;
     }
+        .logo-list li {
+            display: inline-block;
+            margin: 1.25em;
+        }
 
     .copyright {
         padding: 2em 0;
