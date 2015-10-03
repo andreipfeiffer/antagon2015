@@ -282,11 +282,8 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Bilete</h2>
                     <p>Biletele pentru spectacolele din cadrul festivalului se pot cumpara în avans de la:</p>
-                    <ul class="list-unstyled">
-                        <li><a href="https://www.facebook.com/scartloclejer" class="logo-scart">Scârț, Loc lejer</a></li>
-                        <li><a href="https://www.facebook.com/Carturesti.TM" class="logo-carturesti">Librăria Cărturești Mercy</a></li>
-                        <li><a href="https://www.facebook.com/ambasadaPLAI" class="logo-ambasada">Ambasada</a></li>
-                    </ul>
+                    <a href="https://www.facebook.com/scartloclejer" class="logo logo-scart">Scârț, Loc lejer</a>
+                    <br>
                     <br>
                     <br>
                     <p>Biletele costă 25 de lei <br>și permit accesul la toate spectacolele programate într-o zi.</p>

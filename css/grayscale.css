@@ -431,7 +431,7 @@ body {
     display: inline-block;
     padding: 0 2em;
 }
-#bilete li a:link {
+.logo {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: auto 50%;
@@ -442,15 +442,9 @@ body {
 .logo-scart {
     background-image: url('../img/logo-scart.png');
 }
-.logo-carturesti {
-    background-image: url('../img/logo-carturesti.png');
-}
-.logo-ambasada {
-    background-image: url('../img/logo-ambasada.png');
-}
 
 @media(min-width:767px) {
-    #bilete li a:link {
+    .logo {
         background-position: center top;
         background-size: auto auto;
     }
