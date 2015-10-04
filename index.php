@@ -45,6 +45,7 @@ $url['electric'] = 'https://www.google.ro/maps/place/Electric+Theater/@45.744250
 $url['daos']     = 'https://www.google.ro/maps/place/Daos+club/@45.7504715,21.2165254,15z/data=!4m2!3m1!1s0x0:0x51ce14e9247d8378';
 $url['triade']   = 'https://www.google.ro/maps/place/Parcul+Triade,+Strada+Maximilian+Fremont,+Timi%C8%99oara/@45.7284496,21.2376464,17z/data=!3m1!4b1!4m2!3m1!1s0x47455dc0acdb9003:0x958d8892a9bec2dc';
 $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.748673,21.251619?map=45.74881,21.25221,17,traffic&fb_locale=en_US';
+$url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.7542445,21.2440254,17z/data=!3m1!4b1!4m2!3m1!1s0x47456762e7767ae5:0x92dcb81844b95871?hl=en';
 ?>
 
 <head>
@@ -131,12 +132,38 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
 
             <section class="container ziua <?php echo ($antagonDay == 1) ? 'is-active' : '' ?>">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-10 col-md-offset-1">
                         <h3>Duminică <span class="data transparent">18 oct</span></h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">Ferma animalelor <span class="trupa transparent">Auăleu Teatru</span></strong>
-                                <span class="locatie">TBA <span class="ora transparent">20:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Auăleu <span class="oras">(Timișoara)</span></span>
+                                    <span class="transparent">Ferma</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <span class="ora transparent">19:30</span>
+                                </span>
+                            </li>
+                            <li class="clearfix piesa">
+                                <strong class="nume">
+                                    <span class="trupa">Zorislav Stojanović</span>
+                                    <span class="transparent">Petice &amp; Frânturi de Timișoara - expoziție foto</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <span class="ora transparent">21:00</span>
+                                </span>
+                            </li>
+                            <li class="clearfix piesa">
+                                <strong class="nume">
+                                    <span class="trupa">Goran Mrakić</span>
+                                    <span class="transparent">Punk Requiem - lansare de carte</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <span class="ora transparent">21:00</span>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -145,16 +172,28 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
 
             <section class="container ziua <?php echo ($antagonDay == 2) ? 'is-active' : '' ?>">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-10 col-md-offset-1">
                         <h3>Luni <span class="data transparent">19 oct</span></h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">Foc de voie <span class="trupa transparent">Ionuț Caraș</span></strong>
-                                <span class="locatie"><a href="<?=$url["ambasada"]?>">Ambasada</a> <span class="ora transparent">19:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Ionuț Caraș &amp; Cristian Grosu <span class="oras">(Cluj Napoca)</span></span>
+                                    <span class="transparent">Foc de voie</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["ambasada"]?>">Ambasada</a>
+                                    <span class="ora transparent">19:00</span>
+                                </span>
                             </li>
                             <li class="clearfix piesa">
-                                <strong class="nume">Voi n-ați vazut nimic <strong class="trupa">David Schwartz</strong></strong>
-                                <span class="locatie"><a href="<?=$url["ambasada"]?>">Ambasada</a> <span class="ora transparent">21:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Arta Politică <span class="oras">(București)</span></span>
+                                    <span class="transparent">Voi n-ați văzut nimic</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["ambasada"]?>">Ambasada</a>
+                                    <span class="ora transparent">21:00</span>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -163,38 +202,58 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
 
             <section class="container ziua <?php echo ($antagonDay == 3) ? 'is-active' : '' ?>">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-10 col-md-offset-1">
                         <h3>Marți <span class="data transparent">20 oct</span></h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">Uord <span class="trupa transparent">ASA triO</span></strong>
-                                <span class="locatie"><a href="<?=$url["tamtam"]?>">Tam Tam</a> <span class="ora transparent">19:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Așa tRIO <span class="oras">(Timișoara)</span></span>
+                                    <span class="transparent">Uard - spectacol de circ</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["tamtam"]?>">Tam Tam</a>
+                                    <span class="ora transparent">19:00</span>
+                                </span>
                             </li>
                             <li class="clearfix piesa">
-                                <strong class="nume">Concert Punk <span class="trupa transparent">Watican Punk Ballet</span></strong>
-                                <span class="locatie"><a href="<?=$url["tamtam"]?>">Tam Tam</a> <span class="ora transparent">21:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Wattican Punk Ballet <span class="oras">(Ungaria)</span></span>
+                                    <span class="transparent">concert</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["tamtam"]?>">Tam Tam</a>
+                                    <span class="ora transparent">21:00</span>
+                                </span>
                             </li>
-                        </ul>
+                       </ul>
                     </div>
                 </div>
             </section>
 
             <section class="container ziua <?php echo ($antagonDay == 4) ? 'is-active' : '' ?>">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-10 col-md-offset-1">
                         <h3>Miercuri <span class="data transparent">21 oct</h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">Aleargă <span class="trupa transparent">Nicoleta Lefter</span></strong>
-                                <span class="locatie"><a href="<?=$url["ambasada"]?>">Ambasada</a> <span class="ora transparent">19:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Nicoleta Lefter <span class="oras">(București)</span></span>
+                                    <span class="transparent">Aleargă</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["ambasada"]?>">Ambasada</a>
+                                    <span class="ora transparent">19:00</span>
+                                </span>
                             </li>
                             <li class="clearfix piesa">
-                                <strong class="nume">Defilarea costumelor <span class="trupa transparent">Ion Barbu</span></strong>
-                                <span class="locatie"><a href="<?=$url["daos"]?>">Club Daos</a> <span class="ora transparent">20:30</span></span>
-                            </li>
-                            <li class="clearfix piesa">
-                                <strong class="nume">Concert Ada Milea</strong>
-                                <span class="locatie"><a href="<?=$url["daos"]?>">Club Daos</a> <span class="ora transparent">22:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Ada Milea</span>
+                                    <span class="transparent">concert</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["daos"]?>">Club Daos</a>
+                                    <span class="ora transparent">21:00</span>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -203,16 +262,28 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
 
             <section class="container ziua <?php echo ($antagonDay == 5) ? 'is-active' : '' ?>">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-10 col-md-offset-1">
                         <h3>Joi <span class="data transparent">22 oct</span></h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">Zero <span class="trupa transparent">Varoterem Projekt</span></strong>
-                                <span class="locatie"><a href="<?=$url["triade"]?>">Galeria Triade</a> <span class="ora transparent">19:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Unteatru <span class="oras">(București)</span></span>
+                                    <span class="transparent">Răzbunare</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["triade"]?>">Galeria Triade</a>
+                                    <span class="ora transparent">19:00</span>
+                                </span>
                             </li>
                             <li class="clearfix piesa">
-                                <strong class="nume">Răzbunare <span class="trupa transparent">Unteatru</span></strong>
-                                <span class="locatie"><a href="<?=$url["triade"]?>">Galeria Triade</a> <span class="ora transparent">21:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Ion Barbu <span class="oras">(Petrila)</span></span>
+                                    <span class="transparent">Sârbu de la A la Z - performance</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["triade"]?>">Galeria Triade</a>
+                                    <span class="ora transparent">21:00</span>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -221,16 +292,38 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
 
             <section class="container ziua <?php echo ($antagonDay == 6) ? 'is-active' : '' ?>">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-10 col-md-offset-1">
                         <h3>Vineri <span class="data transparent">23 oct</span></h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">Născut în 9 <span class="trupa transparent">Bis</span></strong>
-                                <span class="locatie">TBA <span class="ora transparent">19:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Bis <span class="oras">(Sibiu)</span></span>
+                                    <span class="transparent">Născut in '90</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <span class="ora transparent">19:00</span>
+                                </span>
                             </li>
                             <li class="clearfix piesa">
-                                <strong class="nume">Dureri Fantoma <span class="trupa transparent">Teatrul de Artă</span></strong>
-                                <span class="locatie">TBA <span class="ora transparent">21:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Auăleu <span class="oras">(Timișoara)</span></span>
+                                    <span class="transparent">Stăteam întinși pe pat</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["tvr"]?>">studioul TVR Timișoara</a>
+                                    <span class="ora transparent">20:00</span>
+                                </span>
+                            </li>
+                            <li class="clearfix piesa">
+                                <strong class="nume">
+                                    <span class="trupa">Teatrul de artă <span class="oras">(București)</span></span>
+                                    <span class="transparent">Dureri fantomă</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <span class="ora transparent">21:00</span>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -239,16 +332,28 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
 
             <section class="container ziua <?php echo ($antagonDay == 7) ? 'is-active' : '' ?>">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-10 col-md-offset-1">
                         <h3>Sâmbătă <span class="data transparent">24 oct</span></h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">9 din 10 <span class="trupa transparent">Reactor</span></strong>
-                                <span class="locatie"><a href="<?=$url["electric"]?>">Electric Theatre</a> <span class="ora transparent">19:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Electric Theatre <span class="oras">(Timișoara)</span></span>
+                                    <span class="transparent">Monoloagele vaginului</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["electric"]?>">Electric Theatre</a>
+                                    <span class="ora transparent">19:00</span>
+                                </span>
                             </li>
                             <li class="clearfix piesa">
-                                <strong class="nume">Dumnezeul de a doua zi <span class="trupa transparent">Electric Theatre</span></strong>
-                                <span class="locatie"><a href="<?=$url["electric"]?>">Electric Theatre</a> <span class="ora transparent">21:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Reactor <span class="oras">(Cluj Napoca)</span></span>
+                                    <span class="transparent">9 din 10</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["electric"]?>">Electric Theatre</a>
+                                    <span class="ora transparent">21:00</span>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -257,16 +362,28 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
 
             <section class="container ziua <?php echo ($antagonDay == 8) ? 'is-active' : '' ?>">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-10 col-md-offset-1">
                         <h3>Duminică <span class="data transparent">25 oct</span></h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">Public Land Hotel <span class="trupa transparent">Katarzyna Raduszynska</span></strong>
-                                <span class="locatie"><a href="<?=$url["scart"]?>">Scârț, Loc lejer</a> <span class="ora transparent">18:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Katarzyna Raduszewska <span class="oras">(Polonia)</span></span>
+                                    <span class="transparent">Public Land Hotel - spectacol de lectură</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <span class="ora transparent">18:00</span>
+                                </span>
                             </li>
                             <li class="clearfix piesa">
-                                <strong class="nume">Casa din copac <span class="trupa transparent">Auăleu Teatru</span></strong>
-                                <span class="locatie"><a href="<?=$url["scart"]?>">Scârț, Loc lejer</a> <span class="ora transparent">20:00</span></span>
+                                <strong class="nume">
+                                    <span class="trupa">Auăleu <span class="oras">(Timișoara)</span></span>
+                                    <span class="transparent">Casa din copac</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <span class="ora transparent">20:00</span>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -282,7 +399,7 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Bilete</h2>
                     <p>Biletele pentru spectacolele din cadrul festivalului se pot cumpara în avans de la:</p>
-                    <a href="https://www.facebook.com/scartloclejer" class="logo logo-scart">Scârț, Loc lejer</a>
+                    <a href="https://www.facebook.com/scartloclejer" class="logo logo-scart">Scârț, Loc Lejer</a>
                     <br>
                     <br>
                     <br>
@@ -360,7 +477,7 @@ $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.7
                             <h3>Parteneri</h3>
                             <ul class="logo-list">
                                 <li><a href="http://aualeu.ro/"><img src="img/sustinatori/logo-aualeu.png" alt="Aualeu Teatru"></a></li>
-                                <li><a href="https://www.facebook.com/scartloclejer"><img src="img/sustinatori/logo-scart.png" alt="Scârț Loc lejer"></a></li>
+                                <li><a href="https://www.facebook.com/scartloclejer"><img src="img/sustinatori/logo-scart.png" alt="Scârț Loc Lejer"></a></li>
                                 <li><a href="https://www.facebook.com/electrictheatretm"><img src="img/sustinatori/logo-electric.png" alt="Electric Theatre"></a></li>
                                 <li><a href="http://www.plai.ro/ambasada/"><img src="img/sustinatori/logo-ambasada.png" alt="Ambasada Plai"></a></li>
                                 <li><a href="https://www.facebook.com/daosclub"><img src="img/sustinatori/logo-daos.png" alt="Club Daos"></a></li>

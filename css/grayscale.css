@@ -377,14 +377,17 @@ body {
     }
         .piesa .nume {
             float: left;
-            width: 60%;
+            width: 65%;
         }
+            .piesa .oras {
+                font-weight: normal;
+            }
             .piesa .trupa {
-                padding-left: 0.5em;
+                padding-right: 0.5em;
             }
         .piesa .locatie {
             float: right;
-            width: 40%;
+            width: 35%;
             text-align: right;
         }
             .piesa .ora {
