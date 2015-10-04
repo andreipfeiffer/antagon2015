@@ -418,7 +418,7 @@ body {
 }
 @media(min-width: 992px) {
     #program .is-active .row {
-        background: url('../img/active-day.png') no-repeat left top;
+        background: url('../img/active-day.png') no-repeat left bottom;
     }
 }
 
