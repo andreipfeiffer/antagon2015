@@ -473,9 +473,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                 <li><a href="http://www.zoppas.com/"><img src="img/sustinatori/logo-zoppas.png" alt="Zoppas Industries"></a></li>
                                 <li><a href="http://www.continental-corporation.com/www/portal_ro_ro/"><img src="img/sustinatori/logo-continental.png" alt="Continental"></a></li>
                                 <li><a href="http://www.tatratea.com/"><img src="img/sustinatori/logo-tatratea.png" alt="Tatratea"></a></li>
-                            </ul>
-                            <ul class="logo-list">
-                                <li><a href="http://www.becherovka.com/"><img src="img/sustinatori/logo-becherovka.png" alt="Becherovka"></a></li>
+                                <li><br><a href="http://www.becherovka.com/"><img src="img/sustinatori/logo-becherovka.png" alt="Becherovka"></a></li>
                                 <li><a href="http://www.sifa.ro/"><img src="img/sustinatori/logo-sifa.png" alt="SIFA Consulting"></a></li>
                             </ul>
                         </section>
