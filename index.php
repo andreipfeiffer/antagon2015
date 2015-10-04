@@ -398,10 +398,11 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Bilete</h2>
-                    <p>Biletele pentru spectacolele din cadrul festivalului se pot cumpara în avans de la:</p>
+                    <p>Biletele pentru spectacolele din cadrul festivalului se pot cumpăra în avans de la:</p>
                     <a href="https://www.facebook.com/scartloclejer" class="logo logo-scart">Scârț, Loc Lejer</a>
                     <br>
                     <br>
+                    <p class="transparent">Biletele se pot cumpăra și la intrare în ziua spectacolului.</p>
                     <br>
                     <p>Biletele costă 25 de lei <br>și permit accesul la toate spectacolele programate într-o zi.</p>
                     <p>Abonamentele costă 100 de lei <br>și permit accesul la toate spectacolele din cadrul festivalului.</p>
