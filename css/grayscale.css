@@ -286,6 +286,9 @@ a:focus {
     background-size: 100%;
     margin: 0 1em;
 }
+.social-buttons a:hover {
+    opacity: 0.6;
+}
 .facebook { background-image: url('../img/facebook.png'); }
 .twitter  { background-image: url('../img/twitter.png'); }
 
