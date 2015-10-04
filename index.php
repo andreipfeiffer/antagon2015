@@ -177,7 +177,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                         <ul>
                             <li class="clearfix piesa">
                                 <strong class="nume">
-                                    <span class="trupa">Ionuț Caraș &amp; Cristian Grosu <span class="oras">(Cluj Napoca)</span></span>
+                                    <span class="trupa">Ionuț Caras &amp; Cristian Grosu <span class="oras">(Cluj Napoca)</span></span>
                                     <span class="transparent">Foc de voie</span>
                                 </strong>
                                 <span class="locatie">
@@ -317,7 +317,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                             </li>
                             <li class="clearfix piesa">
                                 <strong class="nume">
-                                    <span class="trupa">Teatrul de artă <span class="oras">(București)</span></span>
+                                    <span class="trupa">Teatrul de Artă <span class="oras">(București)</span></span>
                                     <span class="transparent">Dureri fantomă</span>
                                 </strong>
                                 <span class="locatie">
@@ -368,7 +368,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                             <li class="clearfix piesa">
                                 <strong class="nume">
                                     <span class="trupa">Katarzyna Raduszewska <span class="oras">(Polonia)</span></span>
-                                    <span class="transparent">Public Land Hotel - spectacol de lectură</span>
+                                    <span class="transparent">Public Land Hotel - spectacol lectură</span>
                                 </strong>
                                 <span class="locatie">
                                     <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
