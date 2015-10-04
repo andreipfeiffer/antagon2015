@@ -501,7 +501,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
 
                         <div class="copyright">
                             <small>Copyright &copy; Antagon Festival 2015</small><br>
-                            <small>Based on the free <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale theme</a></small><br>
+                            <small class="transparent">Site construit pe baza temei gratuite <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale theme</a></small><br>
                         </div>
                     </div>
                 </div>
