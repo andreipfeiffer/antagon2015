@@ -489,7 +489,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                 <li><a href="https://www.facebook.com/electrictheatretm"><img src="img/sustinatori/logo-electric.png" alt="Electric Theatre"></a></li>
                                 <li><a href="http://www.plai.ro/ambasada/"><img src="img/sustinatori/logo-ambasada.png" alt="Ambasada Plai"></a></li>
                                 <li><a href="https://www.facebook.com/daosclub"><img src="img/sustinatori/logo-daos.png" alt="Club Daos"></a></li>
-                                <li><a href="http://triade.ro/"><img src="img/sustinatori/logo-triade.png" alt="Galeria Triade"></a></li>
+                                <li><a href="http://www.jeczagallery.com/"><img src="img/sustinatori/logo-jecza.png" alt="Jecza Gallery"></a></li>
                                 <li><a href="https://www.facebook.com/SpatiulTamTam"><img src="img/sustinatori/logo-tamtam.png" alt="Tam Tam"></a></li>
                                 <li><a href="http://timisoara.tvr.ro/"><img src="img/sustinatori/logo-tvr.png" alt="TVR Timisoara"></a></li>
                                 <li><a href="http://culture.pl/en"><img src="img/sustinatori/logo-culturepl.png" alt="supported by culture.pl"></a></li>
