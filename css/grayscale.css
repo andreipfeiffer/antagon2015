@@ -494,11 +494,11 @@ body {
 }
 
 #sponsori {
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 433px, #fff 433px, #fff);
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 433px, #fff 433px, #fff);
-    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 433px, #fff 433px, #fff);
-    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 433px, #fff 433px, #fff);
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 433px, #fff 433px, #fff);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 428px, #fff 428px, #fff);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 428px, #fff 428px, #fff);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 428px, #fff 428px, #fff);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 428px, #fff 428px, #fff);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 428px, #fff 428px, #fff);
     /*background: #fff;*/
     color: #000;
     margin-top: 8em;
