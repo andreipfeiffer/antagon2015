@@ -141,7 +141,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Ferma</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț, Loc Lejer</a>
                                     <span class="ora transparent">19:30</span>
                                 </span>
                             </li>
@@ -151,7 +151,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Petice &amp; Frânturi de Timișoara - expoziție foto</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț, Loc Lejer</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
                             </li>
@@ -161,7 +161,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Punk Requiem - lansare de carte</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț, Loc Lejer</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
                             </li>
@@ -181,7 +181,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Foc de voie</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["ambasada"]?>">Ambasada</a>
+                                    <a href="<?=$url["ambasada"]?>" target="_blank">Ambasada</a>
                                     <span class="ora transparent">19:00</span>
                                 </span>
                             </li>
@@ -191,7 +191,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Voi n-ați văzut nimic</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["ambasada"]?>">Ambasada</a>
+                                    <a href="<?=$url["ambasada"]?>" target="_blank">Ambasada</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
                             </li>
@@ -211,7 +211,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Uard - spectacol de circ</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["tamtam"]?>">Tam Tam</a>
+                                    <a href="<?=$url["tamtam"]?>" target="_blank">Tam Tam</a>
                                     <span class="ora transparent">19:00</span>
                                 </span>
                             </li>
@@ -221,7 +221,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">concert</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["tamtam"]?>">Tam Tam</a>
+                                    <a href="<?=$url["tamtam"]?>" target="_blank">Tam Tam</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
                             </li>
@@ -241,7 +241,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Aleargă</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["ambasada"]?>">Ambasada</a>
+                                    <a href="<?=$url["ambasada"]?>" target="_blank">Ambasada</a>
                                     <span class="ora transparent">19:00</span>
                                 </span>
                             </li>
@@ -251,7 +251,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">concert</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["daos"]?>">Club Daos</a>
+                                    <a href="<?=$url["daos"]?>" target="_blank">Club Daos</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
                             </li>
@@ -271,7 +271,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Răzbunare</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["triade"]?>">Galeria Triade</a>
+                                    <a href="<?=$url["triade"]?>" target="_blank">Galeria Triade</a>
                                     <span class="ora transparent">19:00</span>
                                 </span>
                             </li>
@@ -281,7 +281,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Sârbu de la A la Z - performance</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["triade"]?>">Galeria Triade</a>
+                                    <a href="<?=$url["triade"]?>" target="_blank">Galeria Triade</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
                             </li>
@@ -301,7 +301,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Născut in '90</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț, Loc Lejer</a>
                                     <span class="ora transparent">19:00</span>
                                 </span>
                             </li>
@@ -311,7 +311,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Stăteam întinși pe pat</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["tvr"]?>">studioul TVR Timișoara</a>
+                                    <a href="<?=$url["tvr"]?>" target="_blank">studioul TVR Timișoara</a>
                                     <span class="ora transparent">20:00</span>
                                 </span>
                             </li>
@@ -321,7 +321,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Dureri fantomă</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț, Loc Lejer</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
                             </li>
@@ -341,7 +341,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Monoloagele vaginului</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["electric"]?>">Electric Theatre</a>
+                                    <a href="<?=$url["electric"]?>" target="_blank">Electric Theatre</a>
                                     <span class="ora transparent">19:00</span>
                                 </span>
                             </li>
@@ -351,7 +351,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">9 din 10</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["electric"]?>">Electric Theatre</a>
+                                    <a href="<?=$url["electric"]?>" target="_blank">Electric Theatre</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
                             </li>
@@ -371,7 +371,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Promised Land Hotel - spectacol lectură</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț, Loc Lejer</a>
                                     <span class="ora transparent">18:00</span>
                                 </span>
                             </li>
@@ -381,7 +381,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Casa din copac</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
+                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț, Loc Lejer</a>
                                     <span class="ora transparent">20:00</span>
                                 </span>
                             </li>
@@ -399,7 +399,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Bilete</h2>
                     <p>Biletele pentru spectacolele din cadrul festivalului se pot cumpăra în avans de la:</p>
-                    <a href="https://www.facebook.com/scartloclejer" class="logo logo-scart">Scârț, Loc Lejer</a>
+                    <a href="https://www.facebook.com/scartloclejer" class="logo logo-scart" target="_blank">Scârț, Loc Lejer</a>
                     <br>
                     <br>
                     <p class="transparent">Biletele se pot cumpăra și la intrare în ziua spectacolului.</p>
@@ -449,8 +449,8 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                     0040 749 402521
                 </p>
                 <div class="social-buttons">
-                    <a href="https://www.facebook.com/antagonfestival" class="facebook">Facebook</a>
-                    <a href="https://twitter.com/antagonfestival" class="twitter">Twitter</a>
+                    <a href="https://www.facebook.com/antagonfestival" class="facebook" target="_blank">Facebook</a>
+                    <a href="https://twitter.com/antagonfestival" class="twitter" target="_blank">Twitter</a>
                 </div>
             </div>
         </div>
@@ -470,11 +470,11 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                         <section>
                             <h3>Sponsori</h3>
                             <ul class="logo-list">
-                                <li><a href="http://www.clinicadebere.ro/"><img src="img/sustinatori/logo-clinica-de-bere.png" alt="Clinica de Bere"></a></li>
-                                <li><a href="http://www.zoppas.com/"><img src="img/sustinatori/logo-zoppas.png" alt="Zoppas Industries"></a></li>
-                                <li><a href="http://www.continental-corporation.com/www/portal_ro_ro/"><img src="img/sustinatori/logo-continental.png" alt="Continental"></a></li>
-                                <li><a href="http://www.tatratea.com/"><img src="img/sustinatori/logo-tatratea.png" alt="Tatratea"></a></li>
-                                <li><br><a href="http://www.becherovka.com/"><img src="img/sustinatori/logo-becherovka.png" alt="Becherovka"></a></li>
+                                <li><a href="http://www.clinicadebere.ro/" target="_blank"><img src="img/sustinatori/logo-clinica-de-bere.png" alt="Clinica de Bere"></a></li>
+                                <li><a href="http://www.zoppas.com/" target="_blank"><img src="img/sustinatori/logo-zoppas.png" alt="Zoppas Industries"></a></li>
+                                <li><a href="http://www.continental-corporation.com/www/portal_ro_ro/" target="_blank"><img src="img/sustinatori/logo-continental.png" alt="Continental"></a></li>
+                                <li><a href="http://www.tatratea.com/" target="_blank"><img src="img/sustinatori/logo-tatratea.png" alt="Tatratea"></a></li>
+                                <li><br><a href="http://www.becherovka.com/" target="_blank"><img src="img/sustinatori/logo-becherovka.png" alt="Becherovka"></a></li>
                                 <li><img src="img/sustinatori/logo-sifa.png" alt="SIFA Consulting"></li>
                             </ul>
                         </section>
@@ -484,15 +484,15 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                         <section>
                             <h3>Parteneri</h3>
                             <ul class="logo-list">
-                                <li><a href="http://aualeu.ro/"><img src="img/sustinatori/logo-aualeu.png" alt="Aualeu Teatru"></a></li>
-                                <li><a href="https://www.facebook.com/scartloclejer"><img src="img/sustinatori/logo-scart.png" alt="Scârț Loc Lejer"></a></li>
-                                <li><a href="https://www.facebook.com/electrictheatretm"><img src="img/sustinatori/logo-electric.png" alt="Electric Theatre"></a></li>
-                                <li><a href="http://www.plai.ro/ambasada/"><img src="img/sustinatori/logo-ambasada.png" alt="Ambasada Plai"></a></li>
-                                <li><a href="https://www.facebook.com/daosclub"><img src="img/sustinatori/logo-daos.png" alt="Club Daos"></a></li>
-                                <li><a href="http://www.jeczagallery.com/"><img src="img/sustinatori/logo-jecza.png" alt="Jecza Gallery"></a></li>
-                                <li><a href="https://www.facebook.com/SpatiulTamTam"><img src="img/sustinatori/logo-tamtam.png" alt="Tam Tam"></a></li>
-                                <li><a href="http://timisoara.tvr.ro/"><img src="img/sustinatori/logo-tvr.png" alt="TVR Timisoara"></a></li>
-                                <li><a href="http://culture.pl/en"><img src="img/sustinatori/logo-culturepl.png" alt="supported by culture.pl"></a></li>
+                                <li><a href="http://aualeu.ro/" target="_blank"><img src="img/sustinatori/logo-aualeu.png" alt="Aualeu Teatru"></a></li>
+                                <li><a href="https://www.facebook.com/scartloclejer" target="_blank"><img src="img/sustinatori/logo-scart.png" alt="Scârț Loc Lejer"></a></li>
+                                <li><a href="https://www.facebook.com/electrictheatretm" target="_blank"><img src="img/sustinatori/logo-electric.png" alt="Electric Theatre"></a></li>
+                                <li><a href="http://www.plai.ro/ambasada/" target="_blank"><img src="img/sustinatori/logo-ambasada.png" alt="Ambasada Plai"></a></li>
+                                <li><a href="https://www.facebook.com/daosclub" target="_blank"><img src="img/sustinatori/logo-daos.png" alt="Club Daos"></a></li>
+                                <li><a href="http://www.jeczagallery.com/" target="_blank"><img src="img/sustinatori/logo-jecza.png" alt="Jecza Gallery"></a></li>
+                                <li><a href="https://www.facebook.com/SpatiulTamTam" target="_blank"><img src="img/sustinatori/logo-tamtam.png" alt="Tam Tam"></a></li>
+                                <li><a href="http://timisoara.tvr.ro/" target="_blank"><img src="img/sustinatori/logo-tvr.png" alt="TVR Timisoara"></a></li>
+                                <li><a href="http://culture.pl/en" target="_blank"><img src="img/sustinatori/logo-culturepl.png" alt="supported by culture.pl"></a></li>
                             </ul>
                         </section>
 
@@ -500,7 +500,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
 
                         <div class="copyright">
                             <small>Copyright &copy; Antagon Festival 2015</small><br>
-                            <small class="transparent">Site construit pe baza temei gratuite <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale theme</a></small><br>
+                            <small class="transparent">Site construit pe baza temei gratuite <a href="http://startbootstrap.com/template-overviews/grayscale/" target="_blank">Grayscale theme</a></small><br>
                         </div>
                     </div>
                 </div>
