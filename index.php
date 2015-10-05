@@ -297,7 +297,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                         <ul>
                             <li class="clearfix piesa">
                                 <strong class="nume">
-                                    <span class="trupa">Bis <span class="oras">(Sibiu)</span></span>
+                                    <span class="trupa">Bis Teatru <span class="oras">(Sibiu)</span></span>
                                     <span class="transparent">Născut in '90</span>
                                 </strong>
                                 <span class="locatie">
