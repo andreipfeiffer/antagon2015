@@ -372,7 +372,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                 </strong>
                                 <span class="locatie">
                                     <a href="<?=$url["scart"]?>" target="_blank">Scârț, Loc Lejer</a>
-                                    <span class="ora transparent">18:00</span>
+                                    <span class="ora transparent">17:00</span>
                                 </span>
                             </li>
                             <li class="clearfix piesa">
@@ -382,7 +382,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                 </strong>
                                 <span class="locatie">
                                     <a href="<?=$url["scart"]?>" target="_blank">Scârț, Loc Lejer</a>
-                                    <span class="ora transparent">20:00</span>
+                                    <span class="ora transparent">20:30</span>
                                 </span>
                             </li>
                         </ul>
