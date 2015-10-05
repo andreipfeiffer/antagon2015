@@ -417,9 +417,10 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Despre</h2>
-                    <p>Antagon Festival este un eveniment dedicat companiilor și publicului de teatru independent.</p>
-                    <p>A avut prima ediție în 2014, când numărul mare de spectatori ne-a convins să organizăm și o a doua ediție. Organizatorul evenimentului este Asociația Culturală Antagon. Încă de la prima ediție ne-am propus să oferim trupelor de teatru ce dezvoltă spectacole în regim independent, o platformă de prezentare a acestora publicului din Timișoara.</p>
-                    <p>Selecția spectacolelor este făcută de către organizatori, singurele criterii fiind calitatea spectacolului și apartenența acestuia la scena independentă. </p>
+                    <p>Antagon Festival este un eveniment dedicat companiilor de teatru independent și publicului lor.</p>
+                    <p>A avut loc prima dată în 2014, când numărul mare de spectatori ne-a convins să organizăm și o a doua ediție. Încă de la început ne-am propus să oferim trupelor de teatru ce dezvoltă spectacole în regim independent, o platformă de prezentare a acestora în fața publicului din Timișoara.</p>
+                    <p>Selecția spectacolelor este făcută de către organizatori, singurele criterii fiind calitatea spectacolului și apartenența acestuia la scena independentă.</p>
+                    <p>Evenimentul este organizat de <strong>Asociația Culturală Antagon</strong> și are loc la Timișoara, între 18 și 25 octombrie 2015.</p>
                 </div>
             </div>
         </div>
