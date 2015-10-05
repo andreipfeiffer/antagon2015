@@ -367,8 +367,8 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                         <ul>
                             <li class="clearfix piesa">
                                 <strong class="nume">
-                                    <span class="trupa">Katarzyna Raduszewska <span class="oras">(Polonia)</span></span>
-                                    <span class="transparent">Public Land Hotel - spectacol lectură</span>
+                                    <span class="trupa">Katarzyna Raduszynska <span class="oras">(Polonia)</span></span>
+                                    <span class="transparent">Promised Land Hotel - spectacol lectură</span>
                                 </strong>
                                 <span class="locatie">
                                     <a href="<?=$url["scart"]?>">Scârț, Loc Lejer</a>
