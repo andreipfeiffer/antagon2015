@@ -43,7 +43,7 @@ $url['ambasada'] = 'https://www.google.ro/maps/place/Ambasada/@45.7501748,21.215
 $url['scart']    = 'https://www.google.ro/maps/place/Sc%C3%A2r%C8%9B+Loc+Lejer/@45.7430969,21.2242287,15z/data=!4m2!3m1!1s0x0:0xfd547ee501d53b10';
 $url['electric'] = 'https://www.google.ro/maps/place/Electric+Theater/@45.7442509,21.2360416,15z/data=!4m2!3m1!1s0x0:0x891c1e5e6cf1587f';
 $url['daos']     = 'https://www.google.ro/maps/place/Daos+club/@45.7504715,21.2165254,15z/data=!4m2!3m1!1s0x0:0x51ce14e9247d8378';
-$url['triade']   = 'https://www.google.ro/maps/place/Parcul+Triade,+Strada+Maximilian+Fremont,+Timi%C8%99oara/@45.7284496,21.2376464,17z/data=!3m1!4b1!4m2!3m1!1s0x47455dc0acdb9003:0x958d8892a9bec2dc';
+$url['jecza']    = 'https://www.google.ro/maps/place/Parcul+Triade,+Strada+Maximilian+Fremont,+Timi%C8%99oara/@45.7284496,21.2376464,17z/data=!3m1!4b1!4m2!3m1!1s0x47455dc0acdb9003:0x958d8892a9bec2dc';
 $url['tamtam']   = 'https://www.here.com/directions/drive/mylocation/Tamtam:45.748673,21.251619?map=45.74881,21.25221,17,traffic&fb_locale=en_US';
 $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.7542445,21.2440254,17z/data=!3m1!4b1!4m2!3m1!1s0x47456762e7767ae5:0x92dcb81844b95871?hl=en';
 ?>
@@ -271,7 +271,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Răzbunare</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["triade"]?>" target="_blank">Galeria Triade</a>
+                                    <a href="<?=$url["jecza"]?>" target="_blank">Jecza Gallery</a>
                                     <span class="ora transparent">19:00</span>
                                 </span>
                             </li>
@@ -281,7 +281,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="transparent">Sârbu de la A la Z - performance</span>
                                 </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["triade"]?>" target="_blank">Galeria Triade</a>
+                                    <a href="<?=$url["jecza"]?>" target="_blank">Jecza Gallery</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
                             </li>
