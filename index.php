@@ -268,7 +268,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                             <li class="clearfix piesa">
                                 <strong class="nume">
                                     <span class="trupa">Unteatru <span class="oras">(București)</span></span>
-                                    <span class="transparent">Răzbunare</span>
+                                    <span class="transparent">Trădare</span>
                                 </strong>
                                 <span class="locatie">
                                     <a href="<?=$url["jecza"]?>" target="_blank">Jecza Gallery</a>
