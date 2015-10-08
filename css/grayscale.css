@@ -514,10 +514,20 @@ body {
 
     .logo-list {
         list-style-type: none;
+        padding: 0;
     }
         .logo-list li {
             display: inline-block;
             margin: 1.25em;
+            height: 43px; /* half the size */
+        }
+        .logo-list img {
+            height: 100%;
+        }
+        @media(min-width: 767px) {
+            .logo-list li {
+                height: auto;
+            }
         }
 
     .copyright {
