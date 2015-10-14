@@ -142,6 +142,16 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                 </strong>
                                 <span class="locatie">
                                     <a href="<?=$url["scart"]?>" target="_blank">Scârț, Loc Lejer</a>
+                                    <span class="ora transparent">17:00</span>
+                                </span>
+                            </li>
+                            <li class="clearfix piesa">
+                                <strong class="nume">
+                                    <span class="trupa">Auăleu <span class="oras">(Timișoara)</span></span>
+                                    <span class="transparent">Ferma</span>
+                                </strong>
+                                <span class="locatie">
+                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț, Loc Lejer</a>
                                     <span class="ora transparent">19:30</span>
                                 </span>
                             </li>
@@ -208,7 +218,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                             <li class="clearfix piesa">
                                 <strong class="nume">
                                     <span class="trupa">Așa tRIO <span class="oras">(Timișoara)</span></span>
-                                    <span class="transparent">Uard - spectacol de circ</span>
+                                    <span class="transparent">Uărd - spectacol de circ</span>
                                 </strong>
                                 <span class="locatie">
                                     <a href="<?=$url["tamtam"]?>" target="_blank">Tam Tam</a>
@@ -305,7 +315,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <span class="ora transparent">19:00</span>
                                 </span>
                             </li>
-                            <li class="clearfix piesa">
+                            <!-- <li class="clearfix piesa">
                                 <strong class="nume">
                                     <span class="trupa">Auăleu <span class="oras">(Timișoara)</span></span>
                                     <span class="transparent">Stăteam întinși pe pat</span>
@@ -314,7 +324,7 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
                                     <a href="<?=$url["tvr"]?>" target="_blank">studioul TVR Timișoara</a>
                                     <span class="ora transparent">20:00</span>
                                 </span>
-                            </li>
+                            </li> -->
                             <li class="clearfix piesa">
                                 <strong class="nume">
                                     <span class="trupa">Teatrul de Artă <span class="oras">(București)</span></span>
@@ -443,10 +453,15 @@ $url['tvr']      = 'https://www.google.ro/maps/place/SRTv+-+TVR+Timisoara/@45.75
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
-                <p>Ne puteți contacta pe email sau la telefon:</p>
                 <p>
+                    Ne puteți contacta pe email sau la telefon:<br>
                     <a href="mailto:bogdan.cotirta@antagonfestival.ro">bogdan.cotirta@antagonfestival.ro</a><br>
-                    0040 749 402521
+                    (004) 0749-402.521
+                </p>
+                <p>
+                    PR si acreditari presa:<br>
+                    <a href="mailto:anca.golban@antagonfestival.ro">anca.golban@antagonfestival.ro</a><br>
+                    (004) 0749-034.434
                 </p>
                 <div class="social-buttons">
                     <a href="https://www.facebook.com/antagonfestival" class="facebook" target="_blank">Facebook</a>
