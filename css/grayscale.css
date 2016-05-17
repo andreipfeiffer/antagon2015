@@ -436,10 +436,10 @@ body {
 }
 
 
-#bilete li {
-    display: inline-block;
-    padding: 0 2em;
+#bilete ul {
+    list-style-type: none;
 }
+
 .logo {
     background-position: center center;
     background-repeat: no-repeat;
