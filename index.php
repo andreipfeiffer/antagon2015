@@ -7,32 +7,20 @@ $month = date('m');
 $year  = date('Y');
 
 $date = $year.'-'.$month.'-'.$day;
-// $date = '2016-05-21';
+// $date = '2017-10-27';
 
 switch ($date) {
-    case '2016-05-15':
+    case '2017-10-26':
         $antagonDay = 1;
         break;
-    case '2016-05-16':
+    case '2017-10-27':
         $antagonDay = 2;
         break;
-    case '2016-05-17':
+    case '2017-10-28':
         $antagonDay = 3;
         break;
-    case '2016-05-18':
+    case '2017-10-29':
         $antagonDay = 4;
-        break;
-    case '2016-05-19':
-        $antagonDay = 5;
-        break;
-    case '2016-05-20':
-        $antagonDay = 6;
-        break;
-    case '2016-05-21':
-        $antagonDay = 7;
-        break;
-    case '2016-05-22':
-        $antagonDay = 8;
         break;
     default:
         $antagonDay = 0;
@@ -54,7 +42,7 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
     <meta name="description" content="Festival al teatrului liber, independent">
     <meta name="author" content="">
 
-    <title>Antagon Festival 2016</title>
+    <title>Antagon Festival 2017</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/grayscale.css" rel="stylesheet">
@@ -116,11 +104,11 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <img src="img/header-antagon-festival.png" alt="Antagon Festival, Timisoara 15-22 mai 2016" id="banner-header">
+                        <img src="img/header-antagon-festival.png" alt="Antagon Festival, Timisoara 26-29 octombrie 2017" id="banner-header">
                     </div>
                 </div>
             </div>
-            <a href="#program" class="page-scroll arrow">Programul festivalului</a>
+            <!-- <a href="#program" class="page-scroll arrow">Programul festivalului</a> -->
         </div>
     </header>
 
@@ -132,17 +120,43 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
             <section class="container ziua <?php echo ($antagonDay == 1) ? 'is-active' : '' ?>">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <h3>Duminică <span class="data transparent">15 mai</span></h3>
+                        <h3>Joi <span class="data transparent">26 octombrie</span></h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Auăleu</span>
-                                    <span class="transparent">Ferma</span>
-                                </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț</a>
+                                    <span class="ora transparent">18:00</span>
+                                </span>
+                                <strong class="nume">
+                                    <span class="titlu">Monoloagele vecinului</span>
+                                    <span class="trupa transparent">de și cu Laurențiu Bănescu</span>
+                                </strong>
+                            </li>
+                            <li class="clearfix piesa">
+                                <span class="locatie">
                                     <span class="ora transparent">19:00</span>
                                 </span>
+                                <strong class="nume">
+                                    <span class="titlu">Mălăieș în călcăieș</span>
+                                    <span class="trupa transparent">Frilensăr (București) - Teatru Luni de la Green Hours</span>
+                                </strong>
+                            </li>
+                            <li class="clearfix piesa">
+                                <span class="locatie">
+                                    <span class="ora transparent">21:00</span>
+                                </span>
+                                <strong class="nume">
+                                    <span class="titlu">Ferma</span>
+                                    <span class="trupa transparent">Auăleu (Timișoara)</span>
+                                </strong>
+                            </li>
+                            <li class="clearfix piesa">
+                                <span class="locatie">
+                                    <span class="ora transparent">22:30</span>
+                                </span>
+                                <strong class="nume">
+                                    <span class="titlu">7 piese de teatru spuse și cântate de Alex Ștefănescu</span>
+                                    <span class="trupa transparent">Unteatru (București)</span>
+                                </strong>
                             </li>
                         </ul>
                     </div>
@@ -152,27 +166,34 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
             <section class="container ziua <?php echo ($antagonDay == 2) ? 'is-active' : '' ?>">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <h3>Luni <span class="data transparent">16 mai</span></h3>
+                        <h3>Vineri <span class="data transparent">27 octombrie</span></h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Unteatru</span>
-                                    <span class="transparent">Ce învârte omul drept, după Platon</span>
-                                </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["ambasada"]?>" target="_blank">Ambasada</a>
                                     <span class="ora transparent">19:00</span>
                                 </span>
+                                <strong class="nume">
+                                    <span class="titlu">Clandestino</span>
+                                    <span class="trupa transparent">Bis (Sibiu)</span>
+                                </strong>
                             </li>
                             <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Mircea Tiberian &amp; The Twisters</span>
-                                    <span class="transparent">Jazzy Tarot</span>
-                                </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["ambasada"]?>" target="_blank">Ambasada</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
+                                <strong class="nume">
+                                    <span class="titlu">Înaintea erei noastre</span>
+                                    <span class="trupa transparent">Frilensăr (București) - Teatru Luni de la Green Hours</span>
+                                </strong>
+                            </li>
+                            <li class="clearfix piesa">
+                                <span class="locatie">
+                                    <span class="ora transparent">22:30</span>
+                                </span>
+                                <strong class="nume">
+                                    <span class="titlu">Fluffy &amp; Mr. Grey</span>
+                                    <span class="trupa transparent">concert la ceas de seară din chitară și vioară</span>
+                                </strong>
                             </li>
                         </ul>
                     </div>
@@ -182,35 +203,34 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
             <section class="container ziua <?php echo ($antagonDay == 3) ? 'is-active' : '' ?>">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <h3>Marți <span class="data transparent">17 mai</span></h3>
+                        <h3>Sâmbătă <span class="data transparent">28 octombrie</span></h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Târg de vinyluri și instrumente muzicale vechi</span>
-                                </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț</a>
-                                    <span class="ora transparent">18:00</span>
+                                    <span class="ora transparent">19:00</span>
                                 </span>
+                                <strong class="nume">
+                                    <span class="titlu">Insomniacii</span>
+                                    <span class="trupa transparent">Teatru de Artă (București)</span>
+                                </strong>
                             </li>
                             <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Teatrul de Artă</span>
-                                    <span class="transparent">Cerere în căsătorie</span>
-                                </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["ambasada"]?>" target="_blank">Ambasada</a>
-                                    <span class="ora transparent">19:30</span>
-                                </span>
-                            </li>
-                            <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Proiecții de scurt metraje și filme documentare</span>
-                                </strong>
-                                <span class="locatie">
-                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț, în grădină</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
+                                <strong class="nume">
+                                    <span class="titlu">Miorița</span>
+                                    <span class="trupa transparent">Auăleu (Timișoara)</span>
+                                </strong>
+                            </li>
+                            <li class="clearfix piesa">
+                                <span class="locatie">
+                                    <span class="ora transparent">22:30</span>
+                                </span>
+                                <strong class="nume">
+                                    <span class="titlu">Concert Haos (Timișoara)</span>
+                                    <span class="trupa transparent">concertul se înregistrează pentru primul album al trupei</span>
+                                </strong>
                             </li>
                        </ul>
                     </div>
@@ -220,166 +240,34 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
             <section class="container ziua <?php echo ($antagonDay == 4) ? 'is-active' : '' ?>">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <h3>Miercuri <span class="data transparent">18 mai</h3>
+                        <h3>Duminică <span class="data transparent">29 octombrie</h3>
                         <ul>
                             <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Oana Stoian</span>
-                                    <span class="transparent">Expoziție foto &ndash; 11 ani de Auăleu</span>
-                                </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț</a>
-                                    <span class="ora transparent">19:00</span>
+                                    <span class="ora transparent">18:00</span>
                                 </span>
+                                <strong class="nume">
+                                    <span class="titlu">Iepurele Alb, iepurele roșu</span>
+                                    <span class="trupa transparent">Asociația Culturală CitiZenit (Arad)</span>
+                                </strong>
                             </li>
                             <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Auăleu</span>
-                                    <span class="transparent">Huooooo!!!</span>
-                                </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț</a>
-                                    <span class="ora transparent">20:00</span>
+                                    <span class="ora transparent">19:30</span>
                                 </span>
+                                <strong class="nume">
+                                    <span class="titlu">Eine kleine Nachtmusik</span>
+                                    <span class="trupa transparent">Unteatru (București)</span>
+                                </strong>
                             </li>
                             <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Rapala &amp; Christine</span>
-                                    <span class="transparent">Povești de pe platane</span>
-                                </strong>
                                 <span class="locatie">
-                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț</a>
-                                    <span class="ora transparent">21:30</span>
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="container ziua <?php echo ($antagonDay == 5) ? 'is-active' : '' ?>">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <h3>Joi <span class="data transparent">19 mai</span></h3>
-                        <ul>
-                            <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Reactor de creație și experiment</span>
-                                    <span class="transparent">Nu cred că o să îmi treacă vreodată</span>
-                                </strong>
-                                <span class="locatie">
-                                    <a href="<?=$url["ambasada"]?>" target="_blank">Ambasada</a>
-                                    <span class="ora transparent">19:00</span>
-                                </span>
-                            </li>
-                            <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Rodion</span>
-                                    <span class="transparent">Concert</span>
-                                </strong>
-                                <span class="locatie">
-                                    <a href="<?=$url["aethernativ"]?>" target="_blank">Aethernativ</a>
                                     <span class="ora transparent">21:00</span>
                                 </span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="container ziua <?php echo ($antagonDay == 6) ? 'is-active' : '' ?>">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <h3>Vineri <span class="data transparent">20 mai</span></h3>
-                        <ul>
-                            <li class="clearfix piesa">
                                 <strong class="nume">
-                                    <span class="trupa">BaBa ZuLa</span>
-                                    <span class="transparent">Concert</span>
+                                    <span class="titlu">Ada Milea &amp; Bobo Burlăcianu</span>
+                                    <span class="trupa transparent">concert în 2</span>
                                 </strong>
-                                <span class="locatie">
-                                    <a href="<?=$url["capite"]?>" target="_blank">La Căpițe</a>
-                                    <span class="ora transparent">21:00</span>
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="container ziua <?php echo ($antagonDay == 7) ? 'is-active' : '' ?>">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <h3>Sâmbătă <span class="data transparent">21 mai</span></h3>
-                        <ul>
-                            <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Teatrul Labirint</span>
-                                    <span class="transparent">Asylum</span>
-                                </strong>
-                                <span class="locatie">
-                                    <a href="<?=$url["casa_studentilor"]?>" target="_blank">Casa Studenților</a>
-                                    <span class="ora transparent">17:00</span>
-                                </span>
-                            </li>
-                            <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">O2G</span>
-                                    <span class="transparent">Sub Pământ</span>
-                                </strong>
-                                <span class="locatie">
-                                    <a href="<?=$url["calina"]?>" target="_blank">Galeria Calina</a>
-                                    <span class="ora transparent">19:00</span>
-                                </span>
-                            </li>
-                            <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Nucu Pandrea</span>
-                                    <span class="transparent">Concert la frunză</span>
-                                </strong>
-                                <span class="locatie">
-                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț</a>
-                                    <span class="ora transparent">20:30</span>
-                                </span>
-                            </li>
-                            <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Expoziție 300 de pești de sticlă</span>
-                                </strong>
-                                <span class="locatie">
-                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț</a>
-                                    <span class="ora transparent">21:30</span>
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="container ziua <?php echo ($antagonDay == 8) ? 'is-active' : '' ?>">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <h3>Duminică <span class="data transparent">22 mai</span></h3>
-                        <ul>
-                            <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Ada Milea</span>
-                                    <span class="transparent">Apolodor</span>
-                                </strong>
-                                <span class="locatie">
-                                    <a href="<?=$url["capite"]?>" target="_blank">La Căpițe</a>
-                                    <span class="ora transparent">11:00</span>
-                                </span>
-                            </li>
-                            <li class="clearfix piesa">
-                                <strong class="nume">
-                                    <span class="trupa">Auăleu</span>
-                                    <span class="transparent">O noapte furtunoasă</span>
-                                </strong>
-                                <span class="locatie">
-                                    <a href="<?=$url["scart"]?>" target="_blank">Scârț</a>
-                                    <span class="ora transparent">seara</span>
-                                </span>
                             </li>
                         </ul>
                     </div>
@@ -395,36 +283,18 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Bilete</h2>
 
-                    <p>Pentru urmatoarele spectacole din cadrul Antagon Festival biletele costa 25 de lei si se pot achizitiona la intrarea la spectacol:</p>
-                    <ul class="transparent">
-                        <li class="row">
-                            <div class="col-xs-6 text-right">Unteatru</div>
-                            <div class="col-xs-6 text-left">Ce învârte omul drept</div>
-                        </li>
-                        <li class="row">
-                            <div class="col-xs-6 text-right">Teatrul de Artă</div>
-                            <div class="col-xs-6 text-left">Cerere în căsătorie</div>
-                        </li>
-                        <li class="row">
-                            <div class="col-xs-6 text-right">Reactor de creație și exeriment</div>
-                            <div class="col-xs-6 text-left">Nu cred că o să-mi treacă vreodată</div>
-                        </li>
-                        <li class="row">
-                            <div class="col-xs-6 text-right">BaBa ZuLa</div>
-                            <div class="col-xs-6 text-left">concert</div>
-                        </li>
-                        <li class="row">
-                            <div class="col-xs-6 text-right">O2G</div>
-                            <div class="col-xs-6 text-left">Sub Pământ</div>
-                        </li>
-                        <li class="row">
-                            <div class="col-xs-6 text-right">Ada Milea</div>
-                            <div class="col-xs-6 text-left">concert</div>
-                        </li>
-                    </ul>
-                    <br>
-                    <p>Pentru spectacolele susținute de Auăleu, biletele se pot rezerva la numărul de telefon 0751892340</p>
-                    <p>La celelalte spectacole și momente din cadrul festivalului, accesul este liber in limita locurilor disponibile.</p>
+                    <p>
+                        Biletele la un spectacol costă 25 de lei<br/>
+                        <span class="transparent">(permite accesul la spectacolul sau concertul ales)</span>
+                    </p>
+                    <p>
+                        Biletul de zi costă 40 de lei<br/>
+                        <span class="transparent">(permite accesul la toate spectacolele si concertele din ziua aleasă)</span>
+                    </p>
+                    <p>
+                        Abonamentul costă 100 de lei<br/>
+                        <span class="transparent">(permite accesul la toate spectacolele și concertele din cadrul festivalului)</span>
+                    </p>
                 </div>
             </div>
         </div>
@@ -440,7 +310,7 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
                     <p>Antagon Festival este un eveniment dedicat producțiilor artistice independente și publicului lor.</p>
                     <p>A avut loc prima dată în 2014, când numărul mare de spectatori ne-a convins să organizăm și o a doua ediție. Încă de la început ne-am propus să oferim trupelor de teatru ce dezvoltă spectacole în regim independent, o platformă de prezentare a acestora în fața publicului din Timișoara.</p>
                     <p>Selecția spectacolelor este făcută de către organizatori, singurele criterii fiind calitatea spectacolului și apartenența acestuia la scena independentă.</p>
-                    <p>Evenimentul este organizat de <strong>Asociația Culturală Antagon</strong> și are loc la Timișoara, între 15 și 22 mai 2016.</p>
+                    <p>Evenimentul este organizat de <strong>Asociația Culturală Antagon</strong> și are loc la Timișoara, între 26 și 29 octombrie 2017.</p>
                 </div>
             </div>
         </div>
@@ -468,11 +338,6 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
                     <a href="mailto:bogdan.cotirta@antagonfestival.ro">bogdan.cotirta@antagonfestival.ro</a><br>
                     (004) 0749-402.521
                 </p>
-                <p>
-                    PR si acreditari presa:<br>
-                    <a href="mailto:anca.golban@antagonfestival.ro">anca.golban@antagonfestival.ro</a><br>
-                    (004) 0749-034.434
-                </p>
                 <div class="social-buttons">
                     <a href="https://www.facebook.com/antagonfestival" class="facebook" target="_blank">Facebook</a>
                     <a href="https://twitter.com/antagonfestival" class="twitter" target="_blank">Twitter</a>
@@ -493,37 +358,16 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
                         <br><br>
 
                         <section>
-                            <h3>Sponsori</h3>
                             <ul class="logo-list">
-                                <li><a href="https://www.accenture.com/ro-en/" target="_blank"><img src="img/sustinatori/logo-accenture.png" alt="Accenture"></a></li>
                                 <li><a href="http://www.zoppas.com/" target="_blank"><img src="img/sustinatori/logo-zoppas.png" alt="Zoppas Industries"></a></li>
-                                <li><a href="http://www.tatratea.com/" target="_blank"><img src="img/sustinatori/logo-tatratea.png" alt="Tatratea"></a></li>
-                                <li><img src="img/sustinatori/logo-sifa.png" alt="SIFA Consulting"></li>
                             </ul>
-                        </section>
 
-                        <br><br>
+                            <br><br>
 
-                        <section>
-                            <h3>Finantatori</h3>
                             <p>Consiliul Județean Timiș <br>Primăria Municipiului Timișoara <br>Consiliul Local Timișoara</p>
                             <ul class="logo-list">
                                 <li><img src="img/sustinatori/logo-primaria-timisoara.png" alt="Primaria Timișoara"></li>
                                 <li><img src="img/sustinatori/logo-consiliul-local-timisoara.png" alt="Consiliul Local Timișoara"></li>
-                            </ul>
-                        </section>
-
-                        <br><br>
-
-                        <section>
-                            <h3>Parteneri</h3>
-                            <ul class="logo-list">
-                                <li><a href="http://aualeu.ro/" target="_blank"><img src="img/sustinatori/logo-aualeu.png" alt="Aualeu Teatru"></a></li>
-                                <li><a href="https://www.facebook.com/scartloclejer" target="_blank"><img src="img/sustinatori/logo-scart.png" alt="Scârț Loc Lejer"></a></li>
-                                <li><a href="http://www.lacapite.ro/" target="_blank"><img src="img/sustinatori/logo-capite.png" alt="La Căpițe"></a></li>
-                                <li><a href="https://www.facebook.com/Aethernativ/" target="_blank"><img src="img/sustinatori/logo-aethernativ.png" alt="Aethernativ"></a></li>
-                                <li><a href="http://calina.ro/" target="_blank"><img src="img/sustinatori/logo-galeria-calina.png" alt="Galeria Calina"></a></li>
-                                <li><a href="http://www.plai.ro/ambasada/" target="_blank"><img src="img/sustinatori/logo-ambasada.png" alt="Ambasada Plai"></a></li>
                             </ul>
                         </section>
 

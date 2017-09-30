@@ -357,21 +357,21 @@ body {
 #program .ziua {
     background: url('../img/separator.png') no-repeat center bottom;
     font-size: 12px;
-    margin-bottom: 2em;
-    padding-bottom: 2em;
+    margin-bottom: 4em;
+    padding-bottom: 4em;
 }
 #program h3 {
     margin: 0;
 }
 .transparent {
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 #program ul {
     list-style-type: none;
     padding: 0;
     text-align: left;
-    padding-top: 1em;
+    padding-top: 2em;
 }
     /*#program a:link  { color: #fff; }*/
 
@@ -380,18 +380,16 @@ body {
     }
         .piesa .nume {
             float: left;
-            width: 65%;
+            width: calc(100% - 60px);
         }
-            .piesa .oras {
-                font-weight: normal;
-            }
-            .piesa .trupa {
+            .piesa .titlu {
                 padding-right: 0.5em;
             }
+            /* .piesa .trupa {
+            } */
         .piesa .locatie {
-            float: right;
-            width: 35%;
-            text-align: right;
+            float: left;
+            width: 60px;
         }
             .piesa .ora {
                 display: inline-block;
@@ -401,14 +399,6 @@ body {
 @media(min-width: 767px) {
     #program .ziua {
         font-size: 16px;
-    }
-    .piesa .nume {
-        width: 55%;
-        padding-left: 10%;
-    }
-    .piesa .locatie {
-        width: 45%;
-        padding-right: 10%;
     }
 }
 
