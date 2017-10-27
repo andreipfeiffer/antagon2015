@@ -104,7 +104,7 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <img src="img/header-antagon-festival.png" alt="Antagon Festival, Timisoara 26-29 octombrie 2017" id="banner-header">
+                        <img src="img/header-antagon-festival-2017.png" alt="Antagon Festival, Timisoara 26-29 octombrie 2017" id="banner-header">
                     </div>
                 </div>
             </div>
