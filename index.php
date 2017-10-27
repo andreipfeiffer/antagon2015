@@ -86,6 +86,7 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <li><a class="page-scroll" href="#program">Program</a></li>
+                    <!-- <li><a class="page-scroll" href="#locatie">Locatie</a></li> -->
                     <li><a class="page-scroll" href="#bilete">Bilete</a></li>
                     <li><a class="page-scroll" href="#despre">Despre</a></li>
                     <li><a class="page-scroll" href="#galerie">Galerie</a></li>
@@ -273,6 +274,17 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
                     </div>
                 </div>
             </section>
+        </div>
+    </section>
+
+    <section id="locatie">
+        <div class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Loc de desfasurare</h2>
+                    <p>Festivalul se desfășoară la Halele Timco, situate la intersecția dintre Calea Circumvalațiunii și Strada Brediceanu, cu acces de pe Strada Brediceanu.</p>
+                </div>
+            </div>
         </div>
     </section>
 
