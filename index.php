@@ -359,7 +359,7 @@ $url['calina'] = 'https://www.google.pt/maps/place/Galeria+Calina/@45.7545348,21
 
                         <section>
                             <ul class="logo-list">
-                                <li><a href="http://www.zoppas.com/" target="_blank"><img src="img/sustinatori/logo-zoppas.png" alt="Zoppas Industries"></a></li>
+                                <li><a href="http://www.zoppas.com/" target="_blank"><img src="img/sustinatori/logo-zihet.png" alt="Zoppas Industries"></a></li>
                             </ul>
 
                             <br><br>
